@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/myscreens.rpy", line 33: u'jump' is not a keyword argument or valid child for the screen statement.
+    jump "all_done"
+        ^
+
+Ren'Py Version: Ren'Py 7.4.9.2142
+Wed Oct 13 23:44:40 2021
