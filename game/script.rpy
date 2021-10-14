@@ -3,12 +3,24 @@
 # Определение персонажей игры.
 define s = Character('Шрек', color="#0cb131")
 
-define d = Character("[d_name]", color="#4f3b0d")
+define d = Character("Андрей", color="#4f3b0d")
 # define d = DynamicCharacter('d_name', image='donkey', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed", color="#4f3b0d")
 
 define e = Character("Все", color ="#371540")
 
 define l = Character("Лёха", color ="#4a4118")
+
+define zb = Character("Жека Белоглазов", color ="#4a4118")
+
+define zc = Character("Жека Чупин", color ="#4a4118")
+
+define zc = Character("Жека Чупин", color ="#4a4118")
+
+define i = Character("Ира", color ="#a21919")
+
+define m = Character("Макар", color ="#08041a")
+
+define sk = Character("Капрал", color ="#abb627")
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
@@ -26,6 +38,8 @@ label start:
     call scene_2
 
     call scene_3
+
+    call scene_4
 
     "А это текст в основной части программы"
 

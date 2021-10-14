@@ -4,7 +4,11 @@ label scene_1:
 
     play sound "audio/flush.wav"
 
-    scene bg swamp_scene_1
+    image background:
+      zoom 1.5
+      "images/backgrounds/bg swamp_scene_1_alter.jpg"
+
+    scene background
 
     show shrek happy with zoomin:
         zoom 1.5
@@ -17,29 +21,17 @@ label scene_1:
 
     "И он чилил изо всех сил"
 
-    transform bigzoomfromleft:
-        zoom 1 alpha 1 xalign 0.0
-        linear 4.0 zoom 2 alpha 0 xalign 1.0
-
-    transform bigzoomfromright:
-        zoom 1 alpha 1 xalign 1.0
-        linear 4.0 zoom 2 alpha 0 xalign 0.0
-
-    transform bigzoomfrombottom:
-        zoom 1.0 xalign 0.5 yalign 1
-        linear 4.0 zoom 2 xalign 0.5 yalign 0.3
-
-    show shrek shock at bigzoomfromleft
+    show shrek dota at bigzoomfromleft
 
     "Вот тут он играет в дотку с братанами"
 
-    show shrek smug at bigzoomfromright
+    show shrek hookah at bigzoomfromright
 
     "А тут дует сладкий колюмбасик ммм двойное яблоко "
 
     hide shrek
 
-    show shrek happy at bigzoomfrombottom
+    show shrek guitar at bigzoomfrombottom
 
     "Играет на гитаре музыкант талант красавчик одним словом"
 
@@ -57,7 +49,7 @@ label scene_1:
             "Так и закончилась его история. Максим ни о чем не жалел и умер
             счастливым."
             hide shrek
-            show text "КОНЦОВКА: МНЕ И ТАК ЗАЕБОК" at truecenter
+            show text "{color=#000000}КОНЦОВКА: МНЕ И ТАК ЗАЕБОК{/color}" at truecenter
             with dissolve
             pause 1
             hide text

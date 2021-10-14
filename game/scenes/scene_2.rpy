@@ -3,8 +3,9 @@ label scene_2:
 
     scene bg swamp_scene_2 with dissolve
 
-    show shrek shock at left with dissolve:
-        zoom 0.75
+    show shrek mad at left:
+        zoom 2.0
+    with dissolve
 
     s "Кто это там? Я никого не жду, должно быть, это соседи сверху"
 
@@ -17,8 +18,8 @@ label scene_2:
     play sound "audio/dooropen.wav"
 
     show donkey normal at right:
-
-    $ d_name = "???"
+        zoom 2.0
+    with dissolve
 
     d "Привет Максим!"
 

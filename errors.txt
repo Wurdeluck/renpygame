@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/myscreens.rpy", line 33: u'jump' is not a keyword argument or valid child for the screen statement.
-    jump "all_done"
-        ^
+File "game/scenes/scene_4.rpy", line 55: end of line expected.
+    i "Ну так ищи!" with vpunch:
+                               ^
 
 Ren'Py Version: Ren'Py 7.4.9.2142
-Wed Oct 13 23:44:40 2021
+Thu Oct 14 22:30:23 2021
