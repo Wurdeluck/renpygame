@@ -3,8 +3,7 @@ label scene_2:
 
     scene bg swamp_scene_2 with dissolve
 
-    show shrek mad at left:
-        zoom 2.0
+    show shrek mad at left, shrekzoom
     with dissolve
 
     s "Кто это там? Я никого не жду, должно быть, это соседи сверху"
@@ -17,8 +16,7 @@ label scene_2:
 
     play sound "audio/dooropen.wav"
 
-    show donkey normal at right:
-        zoom 2.0
+    show donkey normal at right, shrekzoom
     with dissolve
 
     d "Привет Максим!"
@@ -34,7 +32,7 @@ label scene_2:
 
     s "Я не в настроении сейчас тусить"
 
-    d "Да мы сейчас настроимся как следует, у меня тут 'нелюбимый алкоголь Максима'"
+    d "Да мы сейчас настроимся как следует, у меня тут Whisky 'William Lawson\'s Super Spiced, 0.7 L'"
 
     s "Слушай иди нахуй а"
 

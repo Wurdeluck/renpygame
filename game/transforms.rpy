@@ -1,5 +1,8 @@
 # scene 1
 
+transform shrekzoom:
+    zoom 2.0
+
 transform bigzoomfromleft:
     zoom 1 alpha 1 xalign 0.0
     # linear 3.0 alpha 0 xalign 0.9 yalign 0.4 rotate 30
@@ -14,9 +17,8 @@ transform bigzoomfrombottom:
     linear 4.0 zoom 2 xalign 0.5 yalign 0.3
 
 # scene 3
-init:
-    transform customzoom:
-        zoom 0.3
+transform customzoom:
+    zoom 0.3
 
 transform forward_spin:
     subpixel True
@@ -56,6 +58,10 @@ transform shake:
         repeat
 
 # scene 5
+
+transform mirrorzoom:
+    zoom 2.5
+
 transform sasha_open:
     on hover:
         xalign 0.2 yalign 0.5

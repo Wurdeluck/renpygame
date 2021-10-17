@@ -17,13 +17,13 @@ label scene_5:
             $ ira = 0
             show bg duloc_scene_4
             show farquaad normal at left, customzoom
-            show mirror at right
+            show mirror disgust at right, mirrorzoom
             with dissolve
-            i "Видно же что хорошая деваха, почему неет?"
+            ik "Видно же что хорошая деваха, почему неет?"
 
             m "Она учитель в Красноярске, она не любит тусить 24 на 7"
             hide farquaad normal
-            hide mirror
+            hide mirror disgust
             hide bg duloc_scene_4
             with dissolve
             jump choose_screen_scene_5
@@ -33,13 +33,13 @@ label scene_5:
             $ sasha = 0
             show bg duloc_scene_4
             show farquaad normal at left, customzoom
-            show mirror at right
+            show mirror disgust at right, mirrorzoom
             with dissolve
-            i "Да вот же, спортивная, на фотках улыбается, что не так?"
+            ik "Да вот же, спортивная, на фотках улыбается, что не так?"
 
             m "Сорян, мой косяк, у нее уже есть молодой человек"
             hide farquaad normal
-            hide mirror
+            hide mirror disgust
             hide bg duloc_scene_4
             with dissolve
             jump choose_screen_scene_5
@@ -49,35 +49,35 @@ label scene_5:
             play sound "audio/correct.mp3"
             show bg duloc_scene_4
             show farquaad normal at left, customzoom
-            show mirror at right
+            show mirror normal at right, mirrorzoom
             with dissolve
-            i "Ага! Да, мне кажется, это идеальный вариант"
+            ik "Ага! Да, мне кажется, это идеальный вариант"
 
             m "Единственное что она в Красноярске..."
 
-            i "Серьезно? Надо срочно привезти ее сюда. Макар, езжай!"
+            ik "Серьезно? Надо срочно привезти ее сюда. Макар, езжай!"
 
             m "Неее я не могу я пьяненький"
 
-            i "Да, это я вижу.{w} Что же делать..."
+            ik "Да, это я вижу.{w} Что же делать..."
 
             show shrek mad at center
             with dissolve
 
             s "Почему в моем доме толпа каких-то чуваков в странных костюмах???"
 
-            i "Максиим, привееет"
+            ik "Максиим, привееет"
 
             m "Макси - им"
 
             s "Я хочу просто мирно сидеть у себя дома :("
 
-            i "Максим, есть идея, как все исправить. План такой..."
+            ik "Максим, есть идея, как все исправить. План такой..."
 
-            stop music fadeout 5.0
+            stop music fadeout 4.0
 
             hide farquaad normal
-            hide mirror
+            hide mirror normal
             hide shrek mad
             hide bg duloc_scene_4
             with dissolve

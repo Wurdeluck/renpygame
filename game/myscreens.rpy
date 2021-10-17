@@ -6,7 +6,7 @@ screen stop_torture():
             textbutton "Прервать" action Jump("finish_scene_2")
 
 # scene 3
-screen croud:
+screen croud():
     showif leha == 1:
         imagebutton:
             xanchor 0.5
@@ -48,7 +48,7 @@ screen croud:
 
 # Давайте поможем выбрать девушку Максиму! Как вы думаете, какая из них подходит больше всего?
 
-screen choose_naumenko:
+screen choose_naumenko():
     showif sasha == 1:
         imagebutton:
             idle "characters/Randoms/sashanaumenko_idle.png"
@@ -88,7 +88,7 @@ init python:
         if 0 not in result.values():
             return True
 
-screen war_draft:
+screen war_draft():
     # Группа drag гарантирует, что персонажей можно перетащить на места.
     draggroup:
 

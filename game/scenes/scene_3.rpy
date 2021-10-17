@@ -32,8 +32,7 @@ label scene_3:
 
         label all_done:
             hide shrek
-            show shrek mad at center:
-                zoom 2.0
+            show shrek mad at center, shrekzoom
             with dissolve
             s "НУ ВСЕ Я СГОРЕЛ НАХУЙ"
             s "КАКОГО ХРЕНА ВЫ ВСЕ СЮДА ПРИШЛИ"
@@ -44,7 +43,6 @@ label scene_3:
                 xalign 1.6
                 yalign 0.5
                 linear 5.0 rotate -45
-            with dissolve
             d "Блееен я Макара забыл взять. Ща я на таксе туда и обратно"
             s "Я с тобой"
             stop music fadeout 5.0
@@ -98,7 +96,7 @@ label scene_3:
             zc "Сразу скажу - мне на смену завтра поэтому я ненадолгооооОООо....."
             show zekac_idle at popierdolilo
             zc "Ладно, спизданул, я здесь до утра. Чувствую углями пахнет - ну так я первый в очереди значит"
-            hide zekac
+            hide zekac_idle
             show zekac_idle:
                 zoom 0.5
                 xzoom 0.25 yzoom 1.5

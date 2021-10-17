@@ -4,11 +4,11 @@ label scene_1:
 
     play sound "audio/flush.wav"
 
-    image background:
+    image background_scene_1:
       zoom 1.5
       "images/backgrounds/bg swamp_scene_1_alter.jpg"
 
-    scene background
+    scene background_scene_1
 
     show shrek happy with zoomin:
         zoom 1.5
