@@ -14,6 +14,10 @@ transform bigzoomfrombottom:
     linear 4.0 zoom 2 xalign 0.5 yalign 0.3
 
 # scene 3
+init:
+    transform customzoom:
+        zoom 0.3
+
 transform forward_spin:
     subpixel True
     rotate 0
@@ -50,3 +54,32 @@ transform shake:
         ease .01 yoffset -4
         ease .01 yoffset 0
         repeat
+
+# scene 5
+transform sasha_open:
+    on hover:
+        xalign 0.2 yalign 0.5
+        linear 0.4 xalign 0.2 yalign 0.3
+    on idle:
+        xalign 0.2 yalign 0.3
+        linear 0.4 xalign 0.2 yalign 0.5
+
+transform ira_open:
+    on hover:
+        xalign 0.5 yalign 0.5
+        linear 0.4 xalign 0.5 yalign 0.3
+    on idle:
+        xalign 0.5 yalign 0.3
+        linear 0.4 xalign 0.5 yalign 0.5
+
+transform vika_open:
+    on hover:
+        xalign 0.8 yalign 0.5
+        linear 0.4 xalign 0.8 yalign 0.3
+    on idle:
+        xalign 0.8 yalign 0.3
+        linear 0.4 xalign 0.8 yalign 0.5
+
+init:
+    transform customopacity:
+        alpha 0.5

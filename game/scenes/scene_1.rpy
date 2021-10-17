@@ -49,10 +49,14 @@ label scene_1:
             "Так и закончилась его история. Максим ни о чем не жалел и умер
             счастливым."
             hide shrek
-            show text "{color=#000000}КОНЦОВКА: МНЕ И ТАК ЗАЕБОК{/color}" at truecenter
+            show text "КОНЦОВКА: МНЕ И ТАК ЗАЕБОК" at truecenter
             with dissolve
             pause 1
             hide text
+            show shrek dota:
+                xalign 1.2
+                yalign 0.4
+                rotate 30
             with dissolve
             jump break_chill
     return

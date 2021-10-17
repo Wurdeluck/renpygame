@@ -1,5 +1,9 @@
 ﻿# Вы можете расположить сценарий своей игры в этом файле.
 
+# Стиль с обводкой
+style default:
+    outlines [ (absolute(3), "#000", absolute(0), absolute(0)) ]
+
 # Определение персонажей игры.
 define s = Character('Шрек', color="#0cb131")
 
@@ -22,6 +26,8 @@ define m = Character("Макар", color ="#08041a")
 
 define sk = Character("Капрал", color ="#abb627")
 
+define ds = Character("Данька", color="#4f3b0d")
+
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
 # Например, сцену bg room можно вызвать файлом "bg room.png",
@@ -41,6 +47,8 @@ label start:
 
     call scene_4
 
-    "А это текст в основной части программы"
+    call scene_5
+
+    "ВСЕ!"
 
     return
