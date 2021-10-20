@@ -6,7 +6,7 @@ transform move_slide:
 init python:
     renpy.music.register_channel ("ch_one", "sfx", False)
 
-screen game_rangedweapon:
+screen game_rangedweapon():
 
     imagebutton:
         xalign 0.5

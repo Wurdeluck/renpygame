@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene_5.rpy", line 63: expected 'comma or end of line' not found.
-    at shrekzoom
-    ^
+File "game/myscreens.rpy", line 27: u'zoom' is not a keyword argument or valid child for the imagebutton statement.
+    zoom 0.3
+        ^
 
 Ren'Py Version: Ren'Py 7.4.9.2142
-Wed Oct 20 22:03:10 2021
+Wed Oct 20 23:35:59 2021

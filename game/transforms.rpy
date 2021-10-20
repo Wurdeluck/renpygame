@@ -20,6 +20,12 @@ transform bigzoomfrombottom:
 transform customzoom:
     zoom 0.3
 
+transform zekabzoom:
+    zoom 0.3
+
+transform osevenzoom:
+    zoom 0.7
+
 transform forward_spin:
     subpixel True
     rotate 0
@@ -27,7 +33,7 @@ transform forward_spin:
     repeat
 
 transform popierdolilo:
-    linear 1.0 xzoom 0.25 yzoom 1.5 xalign 0.1
+    linear 1.0 xzoom 0.25 yzoom 1.5 xalign 0.8
 
 transform bounce:
     pause .15

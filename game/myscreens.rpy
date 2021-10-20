@@ -25,6 +25,7 @@ screen croud():
             xpos 0.8
             ypos 0.38
             focus_mask True
+            at zekabzoom
             auto "characters/Randoms/zekab_%s.png"
             hovered [Play("sound", "audio/zekab.mp3")]
             action Jump("hide_zekab")

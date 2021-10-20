@@ -53,7 +53,7 @@ label scene_3:
             return
 
         label hide_leha:
-            show leha_idle at left
+            show leha_idle at right
             l "О здарова. Я тут наливочку принес, ты угощайся.
             Я еще калик думаю забить, люблю как следует подуть"
             $ leha = 0
@@ -65,21 +65,22 @@ label scene_3:
             jump choose_screen_scene_3
 
         label hide_zekab:
-            show zekab_idle at left
+            show zekab_idle at right, osevenzoom
             zb "Смари че могу"
             show zekab_idle:
                 parallel:
-                    linear 1.0 xalign 0.0
                     linear 1.0 xalign 1.0
+                    linear 1.0 xalign 0.0
                     repeat
                 parallel:
                     linear 1.3 yalign 1.0
                     linear 1.3 yalign 0.0
                     repeat
                 parallel:
+                    zoom 0.7
                     rotate_pad False
                     rotate 0
-                    linear 4.0 rotate 360
+                    linear 4.0 rotate -360
                     repeat
             zb "Хоба"
             hide zekab_idle
@@ -91,7 +92,7 @@ label scene_3:
             jump choose_screen_scene_3
 
         label hide_zekac:
-            show zekac_idle at left
+            show zekac_idle at right
             zc "Здарова"
             zc "Сразу скажу - мне на смену завтра поэтому я ненадолгооооОООо....."
             show zekac_idle at popierdolilo
