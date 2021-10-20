@@ -1,14 +1,14 @@
 label scene_4:
     scene bg duloc_scene_4
-    show farquaad normal at left, customzoom
-    show pryana normal at right
+    show farquaad normal at left
+    show pryana normal at right, shrekzoom
     with dissolve
     ik "Я хочу спать"
 
     sk "Давайте все успокоимся и все мирно урегулируем"
 
     show farquaad normal at left, shake:
-        linear 1.0 zoom 0.6
+        linear 1.0 zoom 1.2
 
     ik "{b}Да я не хочу успокаиваться, у меня болит голова от кальяна и Макар свалил куда-то! Он же едва ноги переставляет!{/b}"
 
@@ -32,7 +32,7 @@ label scene_4:
     m "С лапшичкой"
 
     show farquaad normal at left:
-        linear 1.0 zoom 0.3
+        linear 1.0 zoom 1.0
 
     ik "Ну если с лапшичкой тогда ладно."
 
@@ -41,7 +41,7 @@ label scene_4:
     m "ЭЭээ какой спать я к Максиму тусить поеду."
 
     show farquaad normal:
-        linear 1.0 zoom 0.6
+        linear 1.0 zoom 1.2
 
     ik "Так что вы сразу у своего {i}Максима{/i} не собирались тогда?"
 
@@ -54,7 +54,7 @@ label scene_4:
     $ renpy.play('audio/punch.opus')
     with vpunch
 
-    ik "Макар! Я с тобой разовариваю!"
+    ik "Макар! Я с тобой разговариваю!"
 
     m "ммм что да я проснулся"
 

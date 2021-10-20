@@ -15,40 +15,35 @@ label scene_5:
         label hide_ira:
             play sound "audio/wrong.mp3"
             $ ira = 0
-            show bg duloc_scene_4
-            show farquaad normal at left, customzoom
+            show farquaad bed at left, bedzoom
             show mirror disgust at right, mirrorzoom
             with dissolve
             ik "Видно же что хорошая деваха, почему неет?"
 
             m "Она учитель в Красноярске, она не любит тусить 24 на 7"
-            hide farquaad normal
+            hide farquaad bed
             hide mirror disgust
-            hide bg duloc_scene_4
             with dissolve
             jump choose_screen_scene_5
 
         label hide_sasha:
             play sound "audio/wrong.mp3"
             $ sasha = 0
-            show bg duloc_scene_4
-            show farquaad normal at left, customzoom
+            show farquaad bed at left, bedzoom
             show mirror disgust at right, mirrorzoom
             with dissolve
             ik "Да вот же, спортивная, на фотках улыбается, что не так?"
 
             m "Сорян, мой косяк, у нее уже есть молодой человек"
-            hide farquaad normal
+            hide farquaad bed
             hide mirror disgust
-            hide bg duloc_scene_4
             with dissolve
             jump choose_screen_scene_5
 
         label hide_vika:
             $ vika = 0
             play sound "audio/correct.mp3"
-            show bg duloc_scene_4
-            show farquaad normal at left, customzoom
+            show farquaad bed at left, bedzoom
             show mirror normal at right, mirrorzoom
             with dissolve
             ik "Ага! Да, мне кажется, это идеальный вариант"
@@ -61,7 +56,11 @@ label scene_5:
 
             ik "Да, это я вижу.{w} Что же делать..."
 
-            show shrek mad at center
+            show shrek mad:
+                xalign -0.4
+                yalign 0.5
+                rotate 45
+                zoom 1.5
             with dissolve
 
             s "Почему в моем доме толпа каких-то чуваков в странных костюмах???"
@@ -76,9 +75,8 @@ label scene_5:
 
             stop music fadeout 4.0
 
-            hide farquaad normal
+            hide farquaad bed
             hide mirror normal
             hide shrek mad
-            hide bg duloc_scene_4
             with dissolve
             return

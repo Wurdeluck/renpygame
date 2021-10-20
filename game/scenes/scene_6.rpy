@@ -5,7 +5,7 @@ label scene_6:
 
     scene background_scene_6
 
-    show farquaad normal at left, customzoom
+    show farquaad normal at left
     with dissolve
 
     ik "Слушай внимательно."

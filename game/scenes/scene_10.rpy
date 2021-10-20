@@ -1,7 +1,9 @@
 label scene_10:
+    scene bg forest
     show shrek normal at right
-    show vika normal at center
+    show vika normal at center, customzoom
     show donkey normal at left
+    with dissolve
 
     v "Ребят, я шарю за автостоп, со мной быстро до Томска доберемся."
 
@@ -17,13 +19,15 @@ label scene_10:
 
     tn "ЭТО Я - РОБИН ГУД!"
 
-    show robinhood alone
+    show robinhood_idle at center, customzoom
 
     rg_ "И МОИ ЛЮДИ!"
 
-    hide robinhood alone
+    hide robinhood_idle
 
-    show luda normal
+    show luda_idle at center, customzoom
+    #normal
+    rg "ЭТО МОЯ ДОРОГА, МАЛЬЦЫ!"
 
     v "Почему ты на нас кричишь?"
 
@@ -33,12 +37,36 @@ label scene_10:
 
     s "AAAaaAAAaAAAAAAaaaaaa."
 
+    hide shrek normal
+
     d "Братан без миниска все еще братан, а вот без души - продаван."
 
-    v "Не нервничай, волчара, справимся. Теперь бой равный."
+    v "Не нервничай, справимся. Теперь бой равный."
 
-    l "Ехеехех...  Ctrl + C, Ctrl + v + v + v + v + v + v"
+    lf "Ехеехех...  Ctrl + C, Ctrl + V + V + V + V + V + V"
 
-    v "Ойёёёй..."
+    hide luda_idle
+
+    v "Ойёёёй... сказала бы я, если бы не выросла с двумя младшими сестрами. А ну подходи по одной!"
+
+    d "Он прячется за спинами своих людей! Найди его и тогда мы сможем победить!"
+
+    hide vika normal
+
+    hide donkey normal
+
+    call screen game_rangedweapon
+
+    show robinhood_idle at center, customzoom
+
+    rg "Извините я больше не буду( Хотите подвезу до Томска? У вас тут парень страдает."
+
+    show shrek nominisk at right
+
+    s "АААааАААаАААаА больнааааа"
+
+    show vika normal at left, customzoom
+
+    v "Да, подвезите нас сразу в больницу."
 
     return

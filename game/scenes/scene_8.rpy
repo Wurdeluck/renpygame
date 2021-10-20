@@ -8,7 +8,7 @@ label scene_8:
     d "Заметано бро."
 
     hide shrek normal
-    show kris normal at right
+    show kris stay at right, kriszoom
 
     kr "Привет, один тут отдыхаешь?"
 

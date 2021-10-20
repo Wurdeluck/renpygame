@@ -20,7 +20,7 @@ define zc = Character("Жека Чупин", color ="#4a4118")
 
 define ik = Character("Ира", color ="#a21919")
 
-define m = Character("Макар", color ="#08041a")
+define m = Character("Макар", color ="#371fa2")
 
 define sk = Character("Капрал", color ="#abb627")
 
@@ -33,6 +33,10 @@ define tn = Character("Таинственный незнакомец", color="#0
 define rg_ = Character("РОБИН ГУД", color="#210f67")
 
 define rg = Character("РОБИН ГУД (И ЕГО ЛЮДИ)", color="#210f67")
+
+define lf = Character("РОБИН ГУД (И ЕГО ЛЮДИ)", color="#228620")
+
+define dz = Character("Димас", color="#7f2c86")
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
@@ -64,6 +68,14 @@ label start:
     call scene_9
 
     call scene_10
+
+    call scene_11
+
+    call scene_12
+
+    call scene_13
+
+    call scene_14
 
     "ВСЕ!"
 

@@ -14,8 +14,7 @@ screen croud():
             xpos 0.7
             ypos 0.28
             focus_mask True
-            idle "characters/Randoms/leha_idle.png"
-            hover "characters/Randoms/leha_hover.png"
+            auto "characters/Randoms/leha_%s.png"
             hovered [Play("sound", "audio/leha.mp3")]
             action Jump("hide_leha")
 
@@ -26,8 +25,7 @@ screen croud():
             xpos 0.8
             ypos 0.38
             focus_mask True
-            idle "characters/Randoms/zekab_idle.png"
-            hover "characters/Randoms/zekab_hover.png"
+            auto "characters/Randoms/zekab_%s.png"
             hovered [Play("sound", "audio/zekab.mp3")]
             action Jump("hide_zekab")
 
@@ -38,8 +36,7 @@ screen croud():
             xpos 0.75
             ypos 0.7
             focus_mask True
-            idle "characters/Randoms/zekac_idle.png"
-            hover "characters/Randoms/zekac_hover.png"
+            auto "characters/Randoms/zekac_%s.png"
             hovered [Play("sound", "audio/zekac.mp3")]
             action Jump("hide_zekac")
             at customzoom
@@ -51,22 +48,19 @@ screen croud():
 screen choose_naumenko():
     showif sasha == 1:
         imagebutton:
-            idle "characters/Randoms/sashanaumenko_idle.png"
-            hover "characters/Randoms/sashanaumenko_idle.png"
+            auto "characters/Randoms/sashanaumenko_%s.png"
             at sasha_open, customzoom
             action Jump("hide_sasha")
 
     showif ira == 1:
         imagebutton:
-            idle "characters/Randoms/iranaumenko_idle.png"
-            hover "characters/Randoms/iranaumenko_idle.png"
+            auto "characters/Randoms/iranaumenko_%s.png"
             at ira_open, customzoom
             action Jump("hide_ira")
 
     showif vika == 1:
         imagebutton:
-            idle "characters/Randoms/vikanaumenko_idle.png"
-            hover "characters/Randoms/vikanaumenko_idle.png"
+            auto "characters/Randoms/vikanaumenko_%s.png"
             at vika_open, customzoom
             action Jump("hide_vika")
 

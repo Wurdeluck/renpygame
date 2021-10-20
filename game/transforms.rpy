@@ -57,10 +57,13 @@ transform shake:
         ease .01 yoffset 0
         repeat
 
-# scene 5
-
 transform mirrorzoom:
     zoom 2.5
+
+# scene 5
+
+transform bedzoom:
+    zoom 1.5
 
 transform sasha_open:
     on hover:
@@ -86,6 +89,36 @@ transform vika_open:
         xalign 0.8 yalign 0.3
         linear 0.4 xalign 0.8 yalign 0.5
 
-init:
-    transform customopacity:
-        alpha 0.5
+transform customopacity:
+    alpha 0.5
+
+# scene_8
+
+transform kriszoom:
+    zoom 2.0
+
+
+transform moving_around:
+    parallel:
+        linear randtime1() xalign 0.0
+        linear randtime1() xalign 1.0
+        repeat
+    parallel:
+        linear randtime2() yalign 0.0
+        linear randtime2() yalign 1.0
+        repeat
+
+init python:
+    import random
+
+    def randx():
+        return random.uniform(0, 1)
+
+    def randy():
+        return random.uniform(0, 1)
+
+    def randtime1():
+        return random.gauss(1.5, 0.5)
+
+    def randtime2():
+        return random.gauss(1.5, 0.5)
