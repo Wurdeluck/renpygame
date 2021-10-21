@@ -1,21 +1,21 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 56, in script call
-    call scene_3
-  File "game/scenes/scene_3.rpy", line 68, in script
-    show zekab_idle at right, halfzoom
-  File "game/scenes/scene_3.rpy", line 68, in <module>
-    show zekab_idle at right, halfzoom
-NameError: name 'halfzoom' is not defined
+  File "game/script.rpy", line 83, in script call
+    call scene_9 from _call_scene_9
+  File "game/scenes/scene_9.rpy", line 27, in script
+    show shrek corner at left, shrekcornerzoom
+  File "game/scenes/scene_9.rpy", line 27, in <module>
+    show shrek corner at left, shrekcornerzoom
+NameError: name 'shrekcornerzoom' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 56, in script call
-    call scene_3
-  File "game/scenes/scene_3.rpy", line 68, in script
-    show zekab_idle at right, halfzoom
+  File "game/script.rpy", line 83, in script call
+    call scene_9 from _call_scene_9
+  File "game/scenes/scene_9.rpy", line 27, in script
+    show shrek corner at left, shrekcornerzoom
   File "renpy/ast.py", line 1197, in execute
     show_imspec(self.imspec, atl=getattr(self, "atl", None))
   File "renpy/ast.py", line 1156, in show_imspec
@@ -24,11 +24,11 @@ Full traceback:
     return py_eval_bytecode(code, globals, locals)
   File "renpy/python.py", line 2269, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/scenes/scene_3.rpy", line 68, in <module>
-    show zekab_idle at right, halfzoom
-NameError: name 'halfzoom' is not defined
+  File "game/scenes/scene_9.rpy", line 27, in <module>
+    show shrek corner at left, shrekcornerzoom
+NameError: name 'shrekcornerzoom' is not defined
 
 Windows-10-10.0.19041
 Ren'Py 7.4.9.2142
 VikaDR 1.0
-Wed Oct 20 23:39:11 2021
+Thu Oct 21 20:04:13 2021

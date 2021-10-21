@@ -1,6 +1,6 @@
 label scene_8:
     scene bg kras
-    show donkey normal at left, shrekzoom
+    show donkey normal at left, donkeyzoom
     show shrek normal at right, shrekzoom
     with dissolve
     s "Значит так, я ищу Вику, ты ищешь дракона, встречаемся тут же через 15 минут."
@@ -8,7 +8,7 @@ label scene_8:
     d "Заметано бро."
 
     hide shrek normal
-    show kris stay at right, kriszoom
+    show kris stay at topright, kriszoom
 
     kr "Привет, один тут отдыхаешь?"
 

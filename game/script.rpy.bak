@@ -1,20 +1,5 @@
 ﻿# Вы можете расположить сценарий своей игры в этом файле.
 
-# Бэкграунды
-
-image background_scene_1:
-    zoom 1.5
-    "images/backgrounds/bg swamp_scene_1_alter.jpg"
-
-image background_scene_4:
-    zoom 1.5
-    "images/backgrounds/bg duloc_scene_4.jpg"
-
-image background_scene_6:
-    zoom 1.85
-    "images/backgrounds/bg duloc_scene_6.jpg"
-
-
 # Стиль с обводкой
 style default:
     outlines [ (absolute(3), "#000", absolute(0), absolute(0)) ]
@@ -64,33 +49,33 @@ label start:
     """Здесь должно быть милое видео с нарезкой со свадьбы, где автор рассказывает
     про проклятие Фионы и пророчество и т.д."""
 
-    call scene_1 from _call_scene_1
+    call scene_1
 
-    call scene_2 from _call_scene_2
+    call scene_2
 
-    call scene_3 from _call_scene_3
+    call scene_3
 
-    call scene_4 from _call_scene_4
+    call scene_4
 
-    call scene_5 from _call_scene_5
+    call scene_5
 
-    call scene_6 from _call_scene_6
+    call scene_6
 
-    call scene_7 from _call_scene_7
+    call scene_7
 
-    call scene_8 from _call_scene_8
+    call scene_8
 
-    call scene_9 from _call_scene_9
+    call scene_9
 
-    call scene_10 from _call_scene_10
+    call scene_10
 
-    call scene_11 from _call_scene_11
+    call scene_11
 
-    call scene_12 from _call_scene_12
+    call scene_12
 
-    call scene_13 from _call_scene_13
+    call scene_13
 
-    call scene_14 from _call_scene_14
+    call scene_14
 
     "ВСЕ!"
 

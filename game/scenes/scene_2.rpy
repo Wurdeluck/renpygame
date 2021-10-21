@@ -16,7 +16,7 @@ label scene_2:
 
     play sound "audio/dooropen.wav"
 
-    show donkey normal at right, shrekzoom
+    show donkey normal at right, donkeyzoom
     with dissolve
 
     d "Привет Максим!"

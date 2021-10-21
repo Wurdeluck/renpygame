@@ -1,7 +1,7 @@
 label scene_13:
-    scene bg duloc_scene_4
+    scene background_scene_4
     show farquaad normal at left
-    show vika normal at right, customzoom
+    show vika normal at right, vikazoom
     with dissolve
 
     ik "Ну как Вика, тебе нравится тусить у нас?"
@@ -15,6 +15,7 @@ label scene_13:
     hide bg duloc_scene_4
     hide farquaad normal
     hide vika normal
+    with dissolve
 
     scene background_scene_1
     show shrek normal at left, shrekzoom
@@ -27,6 +28,7 @@ label scene_13:
     show zekac_idle:
         xalign 0.9
         yalign 0.8
+    with dissolve
 
     s "Мде, никого Ира отсюда не выгнала, все так же тусят как и раньше."
 

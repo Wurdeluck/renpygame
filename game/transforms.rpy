@@ -16,6 +16,11 @@ transform bigzoomfrombottom:
     zoom 1.0 xalign 0.5 yalign 1
     linear 4.0 zoom 2 xalign 0.5 yalign 0.3
 
+# scene 2
+
+transform donkeyzoom:
+    zoom 0.5
+
 # scene 3
 transform customzoom:
     zoom 0.3
@@ -128,3 +133,19 @@ init python:
 
     def randtime2():
         return random.gauss(1.5, 0.5)
+
+# scene 9
+transform vikazoom:
+    zoom 0.3
+
+transform shrekcornerzoom:
+    zoom 4.0
+
+# scene 10
+
+transform ludazoom:
+    zoom 0.3
+
+transform multiply:
+    linear 2.0 xtile 10
+    linear 2.0 ytile 5

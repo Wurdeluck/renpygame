@@ -38,9 +38,9 @@ label scene_3:
             s "КАКОГО ХРЕНА ВЫ ВСЕ СЮДА ПРИШЛИ"
             s "ЭТО МОЕ БОЛОТОООО"
             show donkey normal:
-                zoom 2.0
+                zoom 0.5
                 rotate 0
-                xalign 1.6
+                xalign 2.0
                 yalign 0.5
                 linear 5.0 rotate -45
             d "Блееен я Макара забыл взять. Ща я на таксе туда и обратно"

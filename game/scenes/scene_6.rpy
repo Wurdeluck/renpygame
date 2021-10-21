@@ -1,7 +1,4 @@
 label scene_6:
-    image background_scene_6:
-      zoom 1.5
-      "images/backgrounds/bg duloc_scene_6.jpg"
 
     scene background_scene_6
 

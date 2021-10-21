@@ -2,8 +2,8 @@ label scene_12:
 
     scene kras
 
-    show shrek normal at left
-    show vika normal at right
+    show shrek normal at left, shrekzoom
+    show vika normal at right, vikazoom
 
     s "Ну вот мы и рядом с домом Макара, где ты останешься, пока в Томске"
 
@@ -39,7 +39,7 @@ label scene_12:
 
     hide shrek normal
 
-    show donkey normal at center
+    show donkey normal at center, donkeyzoom
 
     d "Да вы что творите?!"
 

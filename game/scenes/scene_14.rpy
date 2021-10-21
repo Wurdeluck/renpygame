@@ -1,7 +1,8 @@
 label scene_14:
-    scene bg duloc_scene_4
+    scene background_scene_4
     show shrek mad at left, shrekzoom
     show farquaad normal at right
+    with dissolve
 
     s "Ты не выполнила свою часть сделки, а значит, я могу тусить с Викой сколько захочу!"
 
@@ -12,6 +13,7 @@ label scene_14:
     v "Я вообще-то личность и сама буду решать с кем мне тусить."
 
     show kris fly at center, kriszoom
+    with dissolve
 
     kr "РРррРРРРрр кто моего Викосека украл, ты??"
 
@@ -19,7 +21,13 @@ label scene_14:
 
     # Съедает Иру?
 
+    hide farquaad
+    with dissolve
+
     s "Вика"
+
+    show vika normal at right, vikazoom
+    with dissolve
 
     v "Что?"
 

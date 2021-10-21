@@ -1,5 +1,5 @@
 label scene_4:
-    scene bg duloc_scene_4
+    scene background_scene_4
     show farquaad normal at left
     show pryana normal at right, shrekzoom
     with dissolve
