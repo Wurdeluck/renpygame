@@ -1,7 +1,9 @@
 label scene_9:
-    scene bg kras
+    scene bg kras2
     show shrek normal at left, shrekzoom
     show vika normal at right, vikazoom
+
+    play music "audio/scene_9_ruby.mp3" volume 0.1 loop
 
     s "Поехали в Томск."
 
@@ -9,11 +11,9 @@ label scene_9:
 
     s "Аааээээ"
 
-    "Хорошие мысли часто преследовали Максима, но он был быстрее. Он подумал, что лучшим способом заманить Вику в Томск будет соблазнить ее."
+    "{i}Хорошие мысли часто преследовали Максима, но он был быстрее. Он подумал, что лучшим способом заманить Вику в Томск будет соблазнить ее.{/i}"
 
     e "Давайте поможем Максиму соблазнить Вику! Для этого выберите те фразы, которые, как вы думаете, соблазнили бы Вику."
-
-    e "..."
 
     e "..."
 
@@ -94,11 +94,11 @@ label scene_9:
                 show shrek corner at left, shrekcornerzoom
                 show vika normal at right, vikazoom
                 with dissolve
-                s "Ты как туалет."
+                s "Ты как вилка."
 
-                v "Так это уже обидно, я что, воняю?"
+                v "Потому что ты меня никогда не видел у себя на болоте?"
 
-                s "Чем ты ближе, тем сильнее хочется."
+                s "Нет, если убрать л, получится Вика :)."
                 hide shrek corner
                 hide vika normal
                 with dissolve
@@ -120,7 +120,7 @@ label scene_9:
     label scene_9_part_3:
         show shrek normal at left, shrekzoom
         show vika normal at right, vikazoom
-        show donkey normal at center, donkeyzoom
+        show donkey normal at center, customzoom
         with dissolve
         d "Нельзя удержать силой дождь, человека и жизнь..."
 
@@ -128,7 +128,9 @@ label scene_9:
 
         s "Кажется он намекает, что нам пора бежать."
 
+        hide donkey normal
         show kris fly at top, kriszoom
+        show donkey normal at center, customzoom
         with dissolve
 
         kr "ВЫ КУДА ЭТО СОБРАЛИСЬ??"
@@ -138,7 +140,9 @@ label scene_9:
         hide shrek normal
         hide vika normal
         hide donkey normal
+
         with dissolve
+        stop music fadeout 2.0
         show kris stay at truecenter, kriszoom
         kr "РРррРРРРРррррРРРРррРрррр"
         hide kris stay with dissolve

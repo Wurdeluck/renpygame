@@ -139,6 +139,7 @@ transform vikazoom:
     zoom 0.3
 
 transform shrekcornerzoom:
+    yalign 0.5
     zoom 4.0
 
 # scene 10

@@ -1,21 +1,23 @@
 label scene_3:
-    scene bg swamp_scene_3
+    scene background_scene_3
     show shrek wait at center
     with dissolve
 
-    s "ДА КТО ЕЩЕ ПРИШЕЛ"
+    s "ДА КТО ЕЩЕ ПРИШЕЛ!"
 
     play sound "audio/dooropen.wav"
 
     play music "<from 1 to 3>audio/noisypeople.wav" volume 1.3 noloop
 
-    play music "<from 3>audio/noisypeople.wav" volume 0.5 loop
+    play sound "<from 3>audio/noisypeople.wav" volume 0.5 loop
+
+    play music "audio/scene_3_believer.mp3" volume 0.1 loop
 
     $ zekab = 1
     $ leha = 1
     $ zekac = 1
 
-    e "ООоо Мааксееем мы пришли тусииииить"
+    e "ООоо Мааксееем мы пришли тусииииить."
 
     hide shrek
     show shrek wait:
@@ -43,9 +45,10 @@ label scene_3:
                 xalign 2.0
                 yalign 0.5
                 linear 5.0 rotate -45
+            stop music fadeout 3.0
+            stop sound fadeout 3.0
             d "Блееен я Макара забыл взять. Ща я на таксе туда и обратно"
             s "Я с тобой"
-            stop music fadeout 5.0
             show black
             show text "В это время у Макара" at truecenter
             with dissolve

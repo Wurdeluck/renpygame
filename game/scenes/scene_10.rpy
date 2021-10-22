@@ -5,13 +5,17 @@ label scene_10:
     show donkey normal at left, donkeyzoom
     with dissolve
 
-    v "Ребят, я шарю за автостоп, со мной быстро до Томска доберемся."
+    play sound "audio/scene_10_nature.mp3" volume 0.2 loop
 
     s "Жаль что пришлось убегать так быстро, что мы не успели взять билеты на автобус."
+
+    v "Ребят, я шарю за автостоп, со мной быстро до Томска доберемся."
 
     d "Мне кажется так даже интереснее."
 
     s "Я рад что ты перестал говорить цитатами."
+
+    play music "audio/scene_10_glam.mp3" volume 0.3 loop
 
     tn "ХА-ХАА, ПОХОЖЕ ВЫ, ДЕТИШКИ, НЕ ЗНАЕТЕ, ЧЕМ ОПАСНА ЭТА ДОРОГА."
 
@@ -19,7 +23,19 @@ label scene_10:
 
     tn "ЭТО Я - РОБИН ГУД!"
 
-    show robinhood_idle at center, customzoom
+    hide shrek normal
+    hide vika normal
+
+    show vika normal:
+        xalign 0.3
+        yalign 1.0
+        zoom 0.3
+    show shrek normal:
+        xalign 0.4
+        yalign 1.0
+        zoom 1.8
+
+    show robinhood_idle at right, customzoom
     with dissolve
 
     rg_ "И МОИ ЛЮДИ!"
@@ -27,14 +43,20 @@ label scene_10:
     hide robinhood_idle
     with dissolve
 
-    show luda_idle at center, ludazoom
+    show luda_idle at right, ludazoom
     with dissolve
 
     rg "ЭТО МОЯ ДОРОГА, МАЛЬЦЫ!"
 
     v "Почему ты на нас кричишь?"
 
-    s "Хе-хе, маловато ты людей набрал, нас-то трое."
+    hide shrek normal
+    show shrek protec:
+        xalign 0.4
+        yalign 1.0
+        zoom 0.3
+
+    s "От девушки отошел быстра"
 
     rg "ЗА ТАКУЮ ДЕРЗОСТЬ Я ЗАБЕРАЮ ТВОЙ МИНИСК."
 
@@ -49,7 +71,7 @@ label scene_10:
 
     lf "Ехеехех...  Ctrl + C, Ctrl + V + V + V + V + V + V"
     hide luda_idle
-    show luda_idle at ludazoom, multiply
+    # show luda_idle at ludazoom
 
     v "Ойёёёй... сказала бы я, если бы не выросла с двумя младшими сестрами. А ну подходи по одной!"
 
@@ -61,19 +83,24 @@ label scene_10:
 
     call screen game_rangedweapon
 
-    show robinhood_idle at center, customzoom
-    with dissolve
+    label after_fight:
 
-    rg "Извините я больше не буду( Хотите подвезу до больнички? У вас тут парень страдает."
+        show robinhood_idle at center, customzoom
+        with dissolve
 
-    show shrek nominisk at right
-    with dissolve
+        rg "Извините я больше не буду( Хотите подвезу до больнички? У вас тут парень страдает."
 
-    s "АААааАААаАААаА больнааааа"
+        show shrek nominisk at right
+        with dissolve
 
-    show vika normal at left, customzoom
-    with dissolve
+        s "АААааАААаАААаА больнааааа"
 
-    v "Да, подвезите нас пожалуйста."
+        show vika normal at left, customzoom
+        with dissolve
 
-    return
+        stop music fadeout 3.0
+        stop sound fadeout 3.0
+
+        v "Да, подвезите нас пожалуйста."
+
+        return

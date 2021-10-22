@@ -1,7 +1,7 @@
 label scene_7:
     scene bg forest_road
     show shrek_donkey_bus at center
-    play music "audio/bus_trip.wav" volume 0.7
+    play music ["audio/scene_7_carmen.mp3", "audio/bus_trip.wav"] volume 0.1
     s "Зачем ты поехал со мной?"
 
     d "Да у меня выходные сейчас, все равно дома бы сидел."

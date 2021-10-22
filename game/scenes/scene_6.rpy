@@ -5,6 +5,8 @@ label scene_6:
     show farquaad normal at left
     with dissolve
 
+    play music "audio/VidaLoca.mp3" volume 0.2 loop
+
     ik "Слушай внимательно."
 
     ik """
@@ -48,6 +50,18 @@ label scene_6:
         s "[concatinated]"
         $ result = {"Вику":0, "Шрека":0, "тусу":0}
         $ score = True if score == 3 else False
+        $ final = shrek_dest == party_dest == vika_dest == "нахуй"
+        if final:
+            ik "Ты чего наделала..."
+            "{i}Так и закончилась их история. Они все отправились нахуй.{/i}"
+            hide farquaad normal
+            show text "КОНЦОВКА: А МНЕ ПОХУЮ" at truecenter
+            with dissolve
+            pause 1
+            hide text
+            show farquaad normal at left
+            with dissolve
+            jump dragndrop_scene_6
         if not score:
             ik "Ты что, совсем тупой?"
             $ score = 0
@@ -56,6 +70,8 @@ label scene_6:
             jump continue_scene_6
 
     label continue_scene_6:
+
+        stop music fadeout 4.0
 
         ik "Все верно."
 

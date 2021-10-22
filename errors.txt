@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/myscreens.rpy", line 27: u'zoom' is not a keyword argument or valid child for the imagebutton statement.
-    zoom 0.3
-        ^
+File "game/scenes/scene_10.rpy", line 18: play requires a file
+    play music 
+               ^
 
 Ren'Py Version: Ren'Py 7.4.9.2142
-Wed Oct 20 23:35:59 2021
+Sat Oct 23 02:26:38 2021

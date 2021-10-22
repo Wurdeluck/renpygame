@@ -1,6 +1,6 @@
 label scene_12:
 
-    scene kras
+    scene bg makar house outside
 
     show shrek normal at left, shrekzoom
     show vika normal at right, vikazoom

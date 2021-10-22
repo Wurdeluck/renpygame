@@ -9,6 +9,7 @@ label scene_8:
 
     hide shrek normal
     show kris stay at topright, kriszoom
+    play music ["audio/HomieAuf.mp3", "audio/MarkAuf.mp3"] volume 0.5 loop
 
     kr "Привет, один тут отдыхаешь?"
 
@@ -31,6 +32,8 @@ label scene_8:
     А Вика - моя подруга, и я отсюда вижу, как Максим к ней катит.
     Вот только ничего у вас не выйдет, я ее никуда не пущу, тем более с таким
     'волчарой' как ты."""
+
+    stop music fadeout 2.0
 
     d "Одна ошибка - и ты ошибся..."
 

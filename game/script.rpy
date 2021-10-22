@@ -6,6 +6,10 @@ image background_scene_1:
     zoom 1.5
     "images/backgrounds/bg swamp_scene_1_alter.jpg"
 
+image background_scene_3:
+    zoom 0.5
+    "images/backgrounds/bg scene_3.jpg"
+
 image background_scene_4:
     zoom 1.5
     "images/backgrounds/bg duloc_scene_4.jpg"
@@ -22,7 +26,7 @@ style default:
 # Определение персонажей игры.
 define s = Character('Шрек', color="#0cb131")
 
-define d = Character("Андрей", color="#4f3b0d")
+define d = Character("Осёл", color="#4f3b0d")
 # define d = DynamicCharacter('d_name', image='donkey', what_prefix='"', what_suffix='"', ctc="ctc", ctc_position="fixed", color="#4f3b0d")
 
 define e = Character("Все", color ="#371540")
@@ -33,17 +37,17 @@ define zb = Character("Жека Белоглазов", color ="#4a4118")
 
 define zc = Character("Жека Чупин", color ="#4a4118")
 
-define ik = Character("Ира", color ="#a21919")
+define ik = Character("Лорд Фаркуад", color ="#a21919")
 
-define m = Character("Макар", color ="#371fa2")
+define m = Character("Зеркало", color ="#371fa2")
 
-define sk = Character("Капрал", color ="#abb627")
+define sk = Character("Печеня", color ="#abb627")
 
-define kr = Character("Кристина", color="#631567")
+define kr = Character("Драконша", color="#631567")
 
-define v = Character("Вика", color="#30adaa")
+define v = Character("Фиона", color="#30adaa")
 
-define tn = Character("Таинственный незнакомец", color="#000000")
+define tn = Character("Таинственный незнакомец", color="#2b6c1d")
 
 define rg_ = Character("РОБИН ГУД", color="#210f67")
 

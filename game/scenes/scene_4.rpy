@@ -3,6 +3,9 @@ label scene_4:
     show farquaad normal at left
     show pryana normal at right, shrekzoom
     with dissolve
+
+    play music "audio/scene_4_castles.mp3" volume 0.1 loop 
+
     ik "Я хочу спать"
 
     sk "Давайте все успокоимся и все мирно урегулируем"
@@ -29,12 +32,12 @@ label scene_4:
 
     ik "{b}Да какой супчик, время 5 утра!{/b}"
 
-    m "С лапшичкой"
+    m "Сырный"
 
     show farquaad normal at left:
         linear 1.0 zoom 1.0
 
-    ik "Ну если с лапшичкой тогда ладно."
+    ik "Ну если сырный тогда ладно."
 
     ik "Спать пойдем?"
 
@@ -55,6 +58,8 @@ label scene_4:
     with vpunch
 
     ik "Макар! Я с тобой разговариваю!"
+
+    stop music fadeout 4.0
 
     m "ммм что да я проснулся"
 

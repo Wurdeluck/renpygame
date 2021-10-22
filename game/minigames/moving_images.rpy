@@ -29,7 +29,7 @@ label winning:
 
     v "Да какая битва, ему одного удара хватило."
 
-    return
+    jump after_fight
 
 label failure:
     d "Неет, это "

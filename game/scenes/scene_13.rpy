@@ -4,6 +4,8 @@ label scene_13:
     show vika normal at right, vikazoom
     with dissolve
 
+    play music "audio/"
+
     ik "Ну как Вика, тебе нравится тусить у нас?"
 
     v "Да, мне весело."

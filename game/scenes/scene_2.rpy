@@ -6,6 +6,8 @@ label scene_2:
     show shrek mad at left, shrekzoom
     with dissolve
 
+    play music ["audio/scene_2_evenworse.mp3", "audio/scene_2_lastride.mp3"] volume 0.2 loop
+
     s "Кто это там? Я никого не жду, должно быть, это соседи сверху"
 
     play audio "audio/doorbell.wav"
@@ -21,16 +23,16 @@ label scene_2:
 
     d "Привет Максим!"
 
-    s "Привет ???{w} А ты кто?"
+    s "Привет ??? А ты кто?"
 
     d "Меня вперед отправили, чтобы угли поставить. Я вот купил 25, они вроде
-    норм. Еще табака немного взял, маст хэв, мануал, короче все как ты любишь"
+    норм. Еще табака немного взял, маст хэв, мануал, короче все как ты любишь."
 
     s "Да я вообще думал сейчас на гитаре поиграть. Один."
 
     d "Ого, прикольно, а ты на гитаре играешь?"
 
-    s "Я не в настроении сейчас тусить"
+    s "Я не в настроении сейчас тусить."
 
     d "Да мы сейчас настроимся как следует, у меня тут Whisky 'William Lawson\'s Super Spiced, 0.7 L'"
 
@@ -53,17 +55,23 @@ label scene_2:
                             "А часто вы так собираетесь?",
                             "А соседи не беспокоят?",
                             "А сам ты откуда?",
-                            "Расскажи мне о своей семье",
+                            "Расскажи мне о своей семье.",
                             "А ты сова или жаворонок?",
                             "Кого ты больше люишь - кошек или собак?",
                             "А сколько жмешь?",
-                            "А какой твой любимый цвет?"]
+                            "А какой твой любимый цвет?",
+                            "Какие сериалы любишь?",
+                            "Как ты думаешь, сколько еще вопросов я тебе задам?",
+                            "В чем сила?",
+                            "Если ты так любишь болота, почему до сих пор не переехал в Каргасок?"]
+
+    $ questions_after = tuple(possible_questions)
 
     $ possible_answers = ["Иди нахуй", "УХОДИ С МОЕГО БОЛОТА", "Да ты заебал", "Не твое дело"]
 
     label infinite_loop:
         python:
-            random_question = possible_questions.pop(0) if possible_questions else "Ой скажи еще что-нибудь у тебя такой приятный голос"
+            random_question = possible_questions.pop(0) if possible_questions else random.choice(questions_after)
         d "[random_question]"
         python:
             random_answer = renpy.random.choice(possible_answers)
@@ -72,6 +80,8 @@ label scene_2:
         jump infinite_loop
 
     label finish_scene_2:
+
+        stop music fadeout 4.0
 
         hide screen stop_torture
 

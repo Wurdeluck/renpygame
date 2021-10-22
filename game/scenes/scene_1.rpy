@@ -9,42 +9,42 @@ label scene_1:
     show shrek happy with zoomin:
         zoom 1.5
 
-    play music "audio/somebody.mp3" volume 0.7 loop
+    play music "audio/scene_1_somebody.mp3" volume 0.5 loop
 
     s "Ух вот это я чилю конечно"
 
     s "Планирую чилить тут как следует"
 
-    "И он чилил изо всех сил"
+    "{i}И он чилил изо всех сил{/i}"
 
     show shrek dota at bigzoomfromleft
 
-    "Вот тут он играет в дотку с братанами"
+    "{i}Вот тут он играет в дотку с братанами{/i}"
 
     show shrek hookah at bigzoomfromright
 
-    "А тут дует сладкий колюмбасик ммм двойное яблоко "
+    "{i}А тут дует сладкий колюмбасик ммм двойное яблоко{/i}"
 
     hide shrek
 
     show shrek guitar at bigzoomfrombottom
 
-    "Играет на гитаре музыкант талант красавчик одним словом"
+    "{i}Играет на гитаре музыкант талант красавчик одним словом{/i}"
 
     menu break_chill:
         "Желаете прервать чилл Максима?"
         "Да":
-            stop music fadeout 5.0
+            stop music fadeout 4.0
             hide shrek
             hide bg
             show black
-            "Максим мирно спал и не догадывался, что его ждет дальше, в между
-            тем история начала стремительно развиваться"
+            "{i}Максим мирно спал и не догадывался, что его ждет дальше, а между
+            тем история начала стремительно развиваться{/i}"
             return
         "Нет":
-            "Так и закончилась его история. Максим ни о чем не жалел и умер
-            счастливым."
-            hide shrek
+            "{i}Так и закончилась его история. Максим ни о чем не жалел и умер
+            счастливым.{/i}"
+            hide shrek guitar
             show text "КОНЦОВКА: МНЕ И ТАК ЗАЕБОК" at truecenter
             with dissolve
             pause 1
