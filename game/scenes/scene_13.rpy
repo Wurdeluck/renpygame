@@ -4,7 +4,7 @@ label scene_13:
     show vika normal at right, vikazoom
     with dissolve
 
-    play music "audio/"
+    play music "audio/scene_13_hallelujah.mp3" volume 0.3 loop
 
     ik "Ну как Вика, тебе нравится тусить у нас?"
 
@@ -34,9 +34,17 @@ label scene_13:
 
     s "Мде, никого Ира отсюда не выгнала, все так же тусят как и раньше."
 
-    s "Ну и ладно."
+    s "Ну и ладно"
 
     e "Чего притих, Максим? Почему ты такой грустный?"
+
+    s "Лучше скажите, почему электричества нет? У меня телефон сел."
+
+    e "Мы слишком громко тусили и нам отключили свет. Пара дней уже прошла."
+
+    s "Всего пара дней. А как будто вечность..."
+
+    e "Расскажи, что случилось?"
 
     s "Я встретил самую прекрасную девушку в мире, но мы поссорились и теперь я буду жить один на болоте, а она тусить у Макара."
 
@@ -48,12 +56,14 @@ label scene_13:
 
     m "Максим, я знаю, что нужно делать"
 
-    play sound "<to 3>audio/skypecall.mp3"
-
+    hide mirror normal
     show mirror empty at center, mirrorzoom
+
+    play sound "<to 3>audio/skypecall.mp3"
 
     pause 3
 
+    hide mirror empty
     show mirror dimas at center, mirrorzoom
 
     dz "Здарова Максим"
@@ -64,8 +74,34 @@ label scene_13:
 
     s "Спасибо Димас!"
 
-    hide shrek normal
+    hide mirror dimas
+    play sound "audio/skype_hangup.mp3"
 
-    e "Ты сможешь Максим! Мы за тобой следом на таксе!"
+    s "Но я не могу вызвать такси! Кто-нибудь может вызвать?"
+
+    e "Света же нет, какие телефоны?"
+
+    s "О нет..."
+
+    vk "Посторонитесь-ка"
+
+    show valek normal at right, drekzoom
+
+    vk "Я на тачке, давай подвезу."
+
+    e "Ураа!"
+
+    e "Дрэк! Дрэк! Дрэк!"
+
+    s "Спасибо, я этого не забуду."
+
+    vk "Тогда в путь!"
+
+    hide shrek normal
+    hide valek normal
+
+    stop music fadeout 3.0
+
+    e "Ты сможешь, Максим! Мы за тобой следом!"
 
     return

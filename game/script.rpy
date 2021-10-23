@@ -15,15 +15,26 @@ image background_scene_4:
     "images/backgrounds/bg duloc_scene_4.jpg"
 
 image background_scene_6:
-    zoom 1.85
+    zoom 1.5
     "images/backgrounds/bg duloc_scene_6.jpg"
 
+# Картинки
+
+image blackboard:
+    zoom 1.3
+    "images/stuff/plate.png"
 
 # Стиль с обводкой
 style default:
     outlines [ (absolute(3), "#000", absolute(0), absolute(0)) ]
 
+style bold_borders:
+    size 60
+    outlines [ (absolute(6), "#000", absolute(0), absolute(0)) ]
+
 # Определение персонажей игры.
+define n = Character (None, color="#000", what_italic=True)
+
 define s = Character('Шрек', color="#0cb131")
 
 define d = Character("Осёл", color="#4f3b0d")
@@ -31,11 +42,15 @@ define d = Character("Осёл", color="#4f3b0d")
 
 define e = Character("Все", color ="#371540")
 
+define dp = Character("Даша-путешественница", color ="#a7173e")
+
 define l = Character("Лёха", color ="#4a4118")
 
 define zb = Character("Жека Белоглазов", color ="#4a4118")
 
 define zc = Character("Жека Чупин", color ="#4a4118")
+
+define vk = Character("Дрэк (двоюродный брат Шрэка)", color="#074615")
 
 define ik = Character("Лорд Фаркуад", color ="#a21919")
 
@@ -61,6 +76,16 @@ define dz = Character("Димас", color="#7f2c86")
 # складывать все ваши файлы изображений в папку images.
 # Например, сцену bg room можно вызвать файлом "bg room.png",
 # а eileen happy — "eileen happy.webp", и тогда они появятся в игре.
+
+# Концовки
+
+image end zaebok = Text("КОНЦОВКА: МНЕ И ТАК ЗАЕБОК", style="bold_borders")
+
+image end fuckoff = Text("КОНЦОВКА: ПУТЕШЕСТВИЕ В ОДИН КОНЕЦ...", style="bold_borders")
+
+image end notsomebody = Text("КОНЦОВКА: ДРАКОНОВЫ МЕРЫ", style="bold_borders")
+
+image end happy = Text("КОНЦОВКА: СЧАСТЛИВЫЙ КОНЕЦ", style="bold_borders")
 
 # Игра начинается здесь:
 label start:

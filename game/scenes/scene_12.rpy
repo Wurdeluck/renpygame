@@ -5,6 +5,8 @@ label scene_12:
     show shrek normal at left, shrekzoom
     show vika normal at right, vikazoom
 
+    play music "audio/scene_12_lastride.mp3" volume 0.1 loop
+
     s "Ну вот мы и рядом с домом Макара, где ты останешься, пока в Томске"
 
     v "Все нормально Максим, мы ведь сможем еще потусить."
@@ -36,6 +38,8 @@ label scene_12:
     hide vika normal
 
     s "А я пойду чилить к себе домой. ОДИН!"
+
+    stop music fadeout 3.0
 
     hide shrek normal
 

@@ -9,7 +9,7 @@ label scene_8:
 
     hide shrek normal
     show kris stay at topright, kriszoom
-    play music ["audio/HomieAuf.mp3", "audio/MarkAuf.mp3"] volume 0.5 loop
+    play music ["audio/HomieAuf.mp3", "audio/MarkAuf.mp3"] volume 0.4 loop
 
     kr "Привет, один тут отдыхаешь?"
 
@@ -33,7 +33,7 @@ label scene_8:
     Вот только ничего у вас не выйдет, я ее никуда не пущу, тем более с таким
     'волчарой' как ты."""
 
-    stop music fadeout 2.0
+    stop music fadeout 3.0
 
     d "Одна ошибка - и ты ошибся..."
 

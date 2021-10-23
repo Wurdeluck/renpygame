@@ -90,7 +90,7 @@ label scene_10:
 
         rg "Извините я больше не буду( Хотите подвезу до больнички? У вас тут парень страдает."
 
-        show shrek nominisk at right
+        show shrek nominisk at right, shrekzoom
         with dissolve
 
         s "АААааАААаАААаА больнааааа"

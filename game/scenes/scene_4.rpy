@@ -4,7 +4,7 @@ label scene_4:
     show pryana normal at right, shrekzoom
     with dissolve
 
-    play music "audio/scene_4_castles.mp3" volume 0.1 loop 
+    play music "audio/scene_4_castles.mp3" volume 0.1 loop
 
     ik "Я хочу спать"
 
@@ -59,9 +59,9 @@ label scene_4:
 
     ik "Макар! Я с тобой разговариваю!"
 
-    stop music fadeout 4.0
-
     m "ммм что да я проснулся"
+
+    stop music fadeout 4.0
 
     ik "Ты поискал девушку Максиму, чтобы она была классная веселая умная и любила тусить?"
 

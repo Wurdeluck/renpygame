@@ -103,6 +103,15 @@ transform vika_open:
 transform customopacity:
     alpha 0.5
 
+# scene_7
+
+transform bus_bounce:
+    pause .1
+    yoffset 0
+    easein .175 yoffset -20
+    easeout .175 yoffset 0
+    repeat
+
 # scene_8
 
 transform kriszoom:
@@ -150,3 +159,8 @@ transform ludazoom:
 transform multiply:
     linear 2.0 xtile 10
     linear 2.0 ytile 5
+
+# scene 13
+
+transform drekzoom:
+    zoom 1.3

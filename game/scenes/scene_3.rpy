@@ -3,7 +3,7 @@ label scene_3:
     show shrek wait at center
     with dissolve
 
-    s "ДА КТО ЕЩЕ ПРИШЕЛ!"
+    s "ДА КТО ЕЩЕ ПРИШЕЛ?!"
 
     play sound "audio/dooropen.wav"
 
@@ -11,7 +11,7 @@ label scene_3:
 
     play sound "<from 3>audio/noisypeople.wav" volume 0.5 loop
 
-    play music "audio/scene_3_believer.mp3" volume 0.1 loop
+    play music "audio/scene_3_friends.mp3" volume 0.1 loop
 
     $ zekab = 1
     $ leha = 1
@@ -19,11 +19,15 @@ label scene_3:
 
     e "ООоо Мааксееем мы пришли тусииииить."
 
+    n "Максим был недоволен, но решил, что он лично встретит каждого гостя,
+    щелкнув на него мышкой."
+
     hide shrek
     show shrek wait:
         zoom 0.7
         xalign 0.4
         yalign 0.3
+
 
     label choose_screen_scene_3:
 
@@ -39,16 +43,36 @@ label scene_3:
             s "НУ ВСЕ Я СГОРЕЛ НАХУЙ"
             s "КАКОГО ХРЕНА ВЫ ВСЕ СЮДА ПРИШЛИ"
             s "ЭТО МОЕ БОЛОТОООО"
+
+            show donkey normal at right, donkeyzoom
+            with dissolve
+
+            d "Блееен я Макара забыл взять. Ща я на таксе туда и обратно."
+
+            hide donkey normal
+            with dissolve
+
+            hide shrek mad
+            show shrek wait hand at center
+            with dissolve
+
+            s "Я с тобой. Брат, ты за старшего!"
+
+            vk "Конечно, братишка!"
+
             show donkey normal:
                 zoom 0.5
                 rotate 0
                 xalign 2.0
                 yalign 0.5
-                linear 5.0 rotate -45
+                linear 3.0 rotate -45
             stop music fadeout 3.0
             stop sound fadeout 3.0
-            d "Блееен я Макара забыл взять. Ща я на таксе туда и обратно"
-            s "Я с тобой"
+
+            d "Там такси уже ожидает, давайте быстрее."
+
+            s "Да выхожу, выхожу."
+
             show black
             show text "В это время у Макара" at truecenter
             with dissolve

@@ -50,18 +50,21 @@ screen choose_naumenko():
     showif sasha == 1:
         imagebutton:
             auto "characters/Randoms/sashanaumenko_%s.png"
+            hovered [Play("sound", "audio/sasha.mp3")]
             at sasha_open, customzoom
             action Jump("hide_sasha")
 
     showif ira == 1:
         imagebutton:
             auto "characters/Randoms/iranaumenko_%s.png"
+            hovered [Play("sound", "audio/ira.mp3")]
             at ira_open, customzoom
             action Jump("hide_ira")
 
     showif vika == 1:
         imagebutton:
             auto "characters/Randoms/vikanaumenko_%s.png"
+            hovered [Play("sound", "audio/vika.mp3")]
             at vika_open, customzoom
             action Jump("hide_vika")
 
@@ -84,6 +87,31 @@ init python:
             return True
 
 screen war_draft():
+
+    imagebutton:
+        idle "images/characters/dragndrop/swamp.png"
+        action Null()
+        hovered [Play("sound", "audio/swamp.mp3")]
+        xpos 600 ypos 200
+
+    imagebutton:
+        idle "characters/dragndrop/makarHouse.png"
+        action Null()
+        hovered [Play("sound", "audio/makar_house.mp3")]
+        xpos 900 ypos 300
+
+    imagebutton:
+        idle "characters/dragndrop/fuckoff.png"
+        action Null()
+        hovered [Play("sound", "audio/fuckoff.mp3")]
+        xpos 1200 ypos 200
+
+    imagebutton:
+        idle "characters/dragndrop/kras.png"
+        action Null()
+        hovered [Play("sound", "audio/kras.mp3")]
+        xpos 1500 ypos 300
+
     # Группа drag гарантирует, что персонажей можно перетащить на места.
     draggroup:
 
@@ -91,42 +119,45 @@ screen war_draft():
         drag:
             drag_name "Шрека"
             child "characters/dragndrop/shrek.png"
+            hovered [Play("sound", "audio/shrek.mp3")]
             droppable False
             dragged char_dragged
-            xpos 100 ypos 100
+            xpos 800 ypos 600
 
         drag:
             drag_name "тусу"
             child "characters/dragndrop/party.png"
+            hovered [Play("sound", "audio/party.mp3")]
             droppable False
             dragged char_dragged
-            xpos 300 ypos 200
+            xpos 1000 ypos 600
 
         drag:
             drag_name "Вику"
             child "characters/dragndrop/vika.png"
+            hovered [Play("sound", "audio/vikaname.mp3")]
             droppable False
             dragged char_dragged
-            xpos 500 ypos 300
+            xpos 1200 ypos 600
 
         # Места, куда можно направить персонажей.
         drag:
             drag_name "на болото"
             child "characters/dragndrop/swamp.png"
             draggable False
-            xpos 600 ypos 100
+            xpos 600 ypos 200
         drag:
             drag_name "на хату Макара"
-            draggable False
             child "characters/dragndrop/makarHouse.png"
-            xpos 800 ypos 300
+            draggable False
+            xpos 900 ypos 300
         drag:
             drag_name "нахуй"
-            draggable False
             child "characters/dragndrop/fuckoff.png"
-            xpos 1000 ypos 500
+            draggable False
+            xpos 1200 ypos 200
         drag:
             drag_name "в Красноярск"
-            draggable False
             child "characters/dragndrop/kras.png"
-            xpos 1200 ypos 600
+            draggable False
+            xpos 1500 ypos 300

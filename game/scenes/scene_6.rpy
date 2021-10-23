@@ -3,9 +3,12 @@ label scene_6:
     scene background_scene_6
 
     show farquaad normal at left
+    show blackboard:
+        xalign 0.8
+        yalign 1.0
     with dissolve
 
-    play music "audio/VidaLoca.mp3" volume 0.2 loop
+    play music "audio/VidaLoca.mp3" volume 0.1 loop
 
     ik "Слушай внимательно."
 
@@ -22,8 +25,20 @@ label scene_6:
 
     ik "Повтори."
 
+    show dasha
+
+    dp "Давайте поможем Максиму вспомнить план действий! Перетащите каждого персонажа в соответствующее место."
+
+    dp "Кстати, персонажей можно отправлять в одно и то же место."
+
+    dp "Бонус: одна из комбинаций открывает секретную концовку."
+
+    hide dasha
+
     label dragndrop_scene_6:
+
         call screen war_draft
+
         python:
             concatinated = "Получается, "
             shrek_dest = result["Шрека"]
@@ -52,13 +67,15 @@ label scene_6:
         $ score = True if score == 3 else False
         $ final = shrek_dest == party_dest == vika_dest == "нахуй"
         if final:
-            ik "Ты чего наделала..."
-            "{i}Так и закончилась их история. Они все отправились нахуй.{/i}"
+            ik "Ты чего наделал..."
+            n "Так и закончилась их история. Они все отправились нахуй."
             hide farquaad normal
-            show text "КОНЦОВКА: А МНЕ ПОХУЮ" at truecenter
+            show black
+            show end fuckoff at truecenter
             with dissolve
-            pause 1
-            hide text
+            pause 3
+            hide end fuckoff
+            hide black
             show farquaad normal at left
             with dissolve
             jump dragndrop_scene_6

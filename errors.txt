@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene_10.rpy", line 18: play requires a file
-    play music 
-               ^
+File "game/myscreens.rpy", line 91: u'n' is not a keyword argument or valid child for the screen statement.
+    n "Давайте поможем Максиму вспомнить план действий! Перетащите каждого персонажа в соответствующее место."
+     ^
 
 Ren'Py Version: Ren'Py 7.4.9.2142
-Sat Oct 23 02:26:38 2021
+Sun Oct 24 00:47:10 2021

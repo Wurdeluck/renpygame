@@ -6,15 +6,15 @@ label scene_2:
     show shrek mad at left, shrekzoom
     with dissolve
 
-    play music ["audio/scene_2_evenworse.mp3", "audio/scene_2_lastride.mp3"] volume 0.2 loop
+    play music ["audio/scene_2_evenworse.mp3"] volume 0.2 loop
 
-    s "Кто это там? Я никого не жду, должно быть, это соседи сверху"
+    s "Кто это там? Я никого не жду, должно быть, это соседи сверху."
 
     play audio "audio/doorbell.wav"
 
     play audio [ "<silence .5>", "audio/doorbell.wav" ]
 
-    s "Придется посмотреть кто же там пришел"
+    s "Придется посмотреть кто же там пришел."
 
     play sound "audio/dooropen.wav"
 
@@ -57,7 +57,7 @@ label scene_2:
                             "А сам ты откуда?",
                             "Расскажи мне о своей семье.",
                             "А ты сова или жаворонок?",
-                            "Кого ты больше люишь - кошек или собак?",
+                            "Кого ты больше любишь - кошек или собак?",
                             "А сколько жмешь?",
                             "А какой твой любимый цвет?",
                             "Какие сериалы любишь?",
@@ -87,10 +87,10 @@ label scene_2:
 
         d "Копец ты интересный Максим"
 
-        s "..."
+        s "Вот ты душнила..."
 
         play audio "audio/doorbell.wav"
 
-        d "О а вот и ребятки"
+        d "О, а вот и ребятки"
 
         return

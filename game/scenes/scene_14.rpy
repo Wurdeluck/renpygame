@@ -17,32 +17,61 @@ label scene_14:
 
     kr "РРррРРРРрр кто моего Викосека украл, ты??"
 
-    s "Это все она"
+    menu decision:
+        "Кто украл Викосека?"
+        "Это все она":
+            jump continue
+        "Это был я":
+            s "Это был я"
 
-    # Съедает Иру?
+            kr "Ам"
 
-    hide farquaad
-    with dissolve
+            hide shrek mad
+            hide farquaad normal
+            hide kris fly
+            show black
+            show notsomebody:
+                yalign 0.3
+                xalign 0.5
+            show end notsomebody at top
+            with dissolve
+            pause 3
+            hide end notsomebody
+            hide notsomebody
+            hide black
+            show shrek mad at left, shrekzoom
+            show farquaad normal at right
+            show kris fly at center, kriszoom
+            with dissolve
+            jump decision
 
-    s "Вика"
+    label continue:
+        s "Это все она"
 
-    show vika normal at right, vikazoom
-    with dissolve
+        # Съедает Иру?
 
-    v "Что?"
+        hide farquaad
+        with dissolve
 
-    s "Ну Замок из стекла же правда отстой"
+        s "Вика"
 
-    v "Я не это хочу услышать"
+        show vika normal at right, vikazoom
+        with dissolve
 
-    s "Вика, ты согласна жить вместе на моем болоте?"
+        v "Что?"
 
-    v "Да"
+        s "Ну Замок из стекла же правда отстой"
 
-    e "Ураааа"
+        v "Я не это хочу услышать"
 
-    v "Выплюнь Иру и будем тусеееть"
+        s "Вика, ты согласна жить вместе на моем болоте?"
 
-    # Поздравления с ДР?
+        v "Да"
 
-    # Все тусят
+        e "Ураааа"
+
+        v "Выплюнь Иру и будем тусеееть"
+
+        # Поздравления с ДР?
+
+        play music "audio/scene_14_believer.mp3" volume 0.5 loop
