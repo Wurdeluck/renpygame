@@ -44,11 +44,11 @@ define e = Character("Все", color ="#371540")
 
 define dp = Character("Даша-путешественница", color ="#a7173e")
 
-define l = Character("Лёха", color ="#4a4118")
+define l = Character("Волк", color ="#4a4118")
 
-define zb = Character("Жека Белоглазов", color ="#4a4118")
+define zb = Character("Кот в сапогах", color ="#4a4118")
 
-define zc = Character("Жека Чупин", color ="#4a4118")
+define zc = Character("Пиноккио", color ="#4a4118")
 
 define vk = Character("Дрэк (двоюродный брат Шрэка)", color="#074615")
 

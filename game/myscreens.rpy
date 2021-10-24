@@ -76,12 +76,13 @@ init python:
 
     def char_dragged(drags, drop):
 
+        char = drags[0].drag_name
+
         if not drop:
+            result[char] = 0
             return
 
-        char = drags[0].drag_name
         place = drop.drag_name
-
         result[char] = place
         if 0 not in result.values():
             return True
