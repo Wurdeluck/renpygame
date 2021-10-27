@@ -1,6 +1,6 @@
 label scene_7:
     scene bg forest_road
-    show shrek_donkey_bus at center, bus_bounce
+    show shrek_donkey_bus at center, bus_bounce, buszoom
     play music ["audio/scene_7_carmen.mp3", "audio/bus_trip.wav"] volume 0.1
     s "Зачем ты поехал со мной?"
 

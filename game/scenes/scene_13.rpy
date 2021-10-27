@@ -20,6 +20,8 @@ label scene_13:
     with dissolve
 
     scene background_scene_1
+    show black:
+        alpha 0.9
     show shrek normal at left, shrekzoom
     show leha_idle:
         xalign 0.7

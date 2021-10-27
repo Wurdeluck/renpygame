@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/myscreens.rpy", line 91: u'n' is not a keyword argument or valid child for the screen statement.
-    n "Давайте поможем Максиму вспомнить план действий! Перетащите каждого персонажа в соответствующее место."
-     ^
+File "game/scenes/scene_3.rpy", line 43: expected end of line
+    play sound "<from 0.5 to 2.7>audio/shrek_roar.mp3" loop 3 volume 0.1
+                                                            ^
 
 Ren'Py Version: Ren'Py 7.4.9.2142
-Sun Oct 24 00:47:10 2021
+Wed Oct 27 23:35:52 2021

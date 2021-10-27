@@ -3,9 +3,9 @@ label scene_3:
     show shrek wait at center
     with dissolve
 
-    s "ДА КТО ЕЩЕ ПРИШЕЛ?!"
-
     play sound "audio/dooropen.wav"
+
+    s "ДА КТО ЕЩЕ ПРИШЕЛ?!"
 
     play music "<from 1 to 3>audio/noisypeople.wav" volume 1.3 noloop
 
@@ -19,7 +19,7 @@ label scene_3:
 
     e "ООоо Мааксееем мы пришли тусииииить."
 
-    n "Максим был недоволен, но решил, что он лично встретит каждого гостя,
+    "Максим был недоволен, но решил, что он лично встретит каждого гостя,
     щелкнув на него мышкой."
 
     hide shrek
@@ -40,8 +40,11 @@ label scene_3:
             hide shrek
             show shrek mad at center, shrekzoom
             with dissolve
+            play sound "<from 0.5 to 2.7>audio/shrek_roar.mp3" volume 0.1
             s "НУ ВСЕ Я СГОРЕЛ НАХУЙ"
+            play sound "<from 0.5 to 2.7>audio/shrek_roar.mp3" volume 0.1
             s "КАКОГО ХРЕНА ВЫ ВСЕ СЮДА ПРИШЛИ"
+            play sound "<from 0.5 to 2.7>audio/shrek_roar.mp3" volume 0.1
             s "ЭТО МОЕ БОЛОТОООО"
 
             show donkey normal at right, donkeyzoom

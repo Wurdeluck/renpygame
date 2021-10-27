@@ -1,7 +1,7 @@
 label scene_10:
     scene bg forest
     show shrek normal at right, shrekzoom
-    show vika normal at center, customzoom
+    show vika normal at center, vikazoom
     show donkey normal at left, donkeyzoom
     with dissolve
 
@@ -27,9 +27,10 @@ label scene_10:
     hide vika normal
 
     show vika normal:
-        xalign 0.3
+        xzoom -1.0
+        xalign 0.2
         yalign 1.0
-        zoom 0.3
+        zoom 0.7
     show shrek normal:
         xalign 0.4
         yalign 1.0
@@ -73,7 +74,14 @@ label scene_10:
     hide luda_idle
     # show luda_idle at ludazoom
 
-    v "Ойёёёй... сказала бы я, если бы не выросла с двумя младшими сестрами. А ну подходи по одной!"
+    v "Ойёёёй... сказала бы я, если бы не выросла с двумя младшими сестрами."
+
+    hide vika normal
+    show vika fight at center, vikafightzoom
+    with dissolve
+
+    v "А ну подходи по одной!"
+
 
     d "Он прячется за спинами своих людей! Найди его и тогда мы сможем победить!"
 
@@ -95,7 +103,7 @@ label scene_10:
 
         s "АААааАААаАААаА больнааааа"
 
-        show vika normal at left, customzoom
+        show vika normal at left, vikafightzoom
         with dissolve
 
         stop music fadeout 3.0

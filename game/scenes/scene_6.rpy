@@ -25,7 +25,9 @@ label scene_6:
 
     ik "Повтори."
 
-    show dasha
+    hide farquaad
+    show dasha at left, dashazoom
+    with dissolve
 
     dp "Давайте поможем Максиму вспомнить план действий! Перетащите каждого персонажа в соответствующее место."
 
@@ -34,6 +36,8 @@ label scene_6:
     dp "Бонус: одна из комбинаций открывает секретную концовку."
 
     hide dasha
+    show farquaad normal at left
+    with dissolve
 
     label dragndrop_scene_6:
 
@@ -68,7 +72,7 @@ label scene_6:
         $ final = shrek_dest == party_dest == vika_dest == "нахуй"
         if final:
             ik "Ты чего наделал..."
-            n "Так и закончилась их история. Они все отправились нахуй."
+            "Так и закончилась их история. Они все отправились нахуй."
             hide farquaad normal
             show black
             show end fuckoff at truecenter

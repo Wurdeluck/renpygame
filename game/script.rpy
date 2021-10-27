@@ -33,7 +33,9 @@ style bold_borders:
     outlines [ (absolute(6), "#000", absolute(0), absolute(0)) ]
 
 # Определение персонажей игры.
-define n = Character (None, color="#000", what_italic=True)
+# define n = Character (None, color="#000", what_italic=True)
+
+define narrator = Character(None, window_left_padding=100, what_italic=True)
 
 define s = Character('Шрек', color="#0cb131")
 
@@ -90,8 +92,12 @@ image end happy = Text("КОНЦОВКА: СЧАСТЛИВЫЙ КОНЕЦ", styl
 # Игра начинается здесь:
 label start:
 
-    """Здесь должно быть милое видео с нарезкой со свадьбы, где автор рассказывает
-    про проклятие Фионы и пророчество и т.д."""
+    # Movie(play="video/intro.wmv", loop=False, size=(1920,1080))
+
+    $ renpy.movie_cutscene("images/video/intro.webm")
+
+    # """Здесь должно быть милое видео с нарезкой со свадьбы, где автор рассказывает
+    # про проклятие Фионы и пророчество и т.д."""
 
     call scene_1 from _call_scene_1
 

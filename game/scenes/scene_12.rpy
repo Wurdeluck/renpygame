@@ -36,14 +36,17 @@ label scene_12:
     v "Ах так! Я прекрасно проведу время с Макаром и Ирой и другими людьми с того видео что ты мне показывал."
 
     hide vika normal
+    with dissolve
 
     s "А я пойду чилить к себе домой. ОДИН!"
 
     stop music fadeout 3.0
 
     hide shrek normal
+    with dissolve
 
     show donkey normal at center, donkeyzoom
+    with dissolve
 
     d "Да вы что творите?!"
 

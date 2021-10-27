@@ -11,13 +11,19 @@ label scene_9:
 
     s "Аааээээ"
 
-    n "Хорошие мысли часто преследовали Максима, но он был быстрее. Он подумал, что лучшим способом заманить Вику в Томск будет соблазнение."
+    "Хорошие мысли часто преследовали Максима, но он был быстрее. Он подумал, что лучшим способом заманить Вику в Томск будет соблазнение."
 
-    show dasha
+    hide shrek
+    hide vika
+    show dasha at center, dashazoom
+    with dissolve
 
     dp "Давайте поможем Максиму соблазнить Вику! Для этого выберите те фразы, которые, как вы думаете, соблазнили бы Вику."
 
     hide dasha
+    show shrek normal at left, shrekzoom
+    show vika normal at right, vikazoom
+    with dissolve
 
     s "Вика!"
 
@@ -42,17 +48,13 @@ label scene_9:
             hide vika normal
             with dissolve
             jump scene_9_part_1
-        "Подкат про беляш":
-            show shrek corner at left, shrekcornerzoom
+        "Хайповый подкат":
+            show shrek potato at left, potatoshrekzoom
             show vika normal at right, vikazoom
             with dissolve
-            s "Ты как беляш с вокзала."
+            s "Смотри Вика, я превратил себя в картошку. Я картошка Шрееееек"
 
-            v "Почему?"
-
-            s "Горячая, сочная и опасная."
-
-            v "Теперь я хочу есть."
+            v "Боже, этому мему 4 года, найди что-то поактуальнее"
             hide shrek corner
             hide vika normal
             with dissolve
@@ -64,16 +66,18 @@ label scene_9:
                 show shrek corner at left, shrekcornerzoom
                 show vika normal at right, vikazoom
                 with dissolve
-                s "Говорят ты по образованию географ?"
+                s "Говорят ты закончила географический? Любишь географию, значит?"
 
                 v "Да, а что?"
 
-                s "Мне кажется мы подходим друг другу, ведь я геОГР."
+                s "Тогда тебе повезло, ведь я геОГР."
+
+                v "Пфххх"
 
                 hide shrek corner
                 hide vika normal
                 with dissolve
-                jump scene_9_question_2
+                jump scene_9_part_2
 
             "Подкат наоборот":
                 show shrek corner at left, shrekcornerzoom
@@ -89,7 +93,7 @@ label scene_9:
                 hide shrek corner
                 hide vika normal
                 with dissolve
-                jump scene_9_part_2
+                jump scene_9_question_2
 
     label scene_9_part_2:
         menu scene_9_question_3:
@@ -102,6 +106,8 @@ label scene_9:
                 v "Конечно."
 
                 s "Тогда я могу тебя как следуешь пошрекотать."
+
+                v "Это так плохо что даже хорошо."
                 hide shrek corner
                 hide vika normal
                 with dissolve

@@ -103,6 +103,11 @@ transform vika_open:
 transform customopacity:
     alpha 0.5
 
+# scene_6
+
+transform dashazoom:
+    zoom 0.7
+
 # scene_7
 
 transform bus_bounce:
@@ -111,6 +116,9 @@ transform bus_bounce:
     easein .175 yoffset -20
     easeout .175 yoffset 0
     repeat
+
+transform buszoom:
+    zoom 2.0
 
 # scene_8
 
@@ -145,13 +153,21 @@ init python:
 
 # scene 9
 transform vikazoom:
-    zoom 0.3
+    zoom 1.0
 
 transform shrekcornerzoom:
     yalign 0.5
+    xalign -0.3
     zoom 4.0
 
+transform potatoshrekzoom:
+    zoom 1.0
+
 # scene 10
+
+transform vikafightzoom:
+    xzoom -1.0
+    zoom 1.0
 
 transform ludazoom:
     zoom 0.3
@@ -164,3 +180,6 @@ transform multiply:
 
 transform drekzoom:
     zoom 1.3
+
+transform krisdoublezoom:
+    zoom 3.0
