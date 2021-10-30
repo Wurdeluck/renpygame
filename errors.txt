@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene_3.rpy", line 43: expected end of line
-    play sound "<from 0.5 to 2.7>audio/shrek_roar.mp3" loop 3 volume 0.1
-                                                            ^
+File "game/scenes/scene_14.rpy", line 85: expected end of line
+    play music "audio/endmusic.mp3" volume 0.2 nolpoop
+                                               ^
 
 Ren'Py Version: Ren'Py 7.4.9.2142
-Wed Oct 27 23:35:52 2021
+Sat Oct 30 17:43:33 2021

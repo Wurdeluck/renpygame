@@ -1,7 +1,13 @@
 label scene_3:
     scene background_scene_3
-    show shrek wait at center
+    # show hookah:
+        # xalign 0.5
+        # yalign 0.5
+    show shrek wait:
+        xalign 0.4
+        yalign 0.8
     with dissolve
+
 
     play sound "audio/dooropen.wav"
 
@@ -22,11 +28,10 @@ label scene_3:
     "Максим был недоволен, но решил, что он лично встретит каждого гостя,
     щелкнув на него мышкой."
 
-    hide shrek
-    show shrek wait:
-        zoom 0.7
-        xalign 0.4
-        yalign 0.3
+    # hide shrek
+    # show shrek wait:
+        # yalign 0.3
+        # xalign 0.4
 
 
     label choose_screen_scene_3:
@@ -89,9 +94,9 @@ label scene_3:
             $ leha = 0
             hide leha_idle
             show leha_idle:
-                xalign 0.3
-                yalign 0.6
-                zoom 0.25
+                xalign 0.25
+                yalign 0.0
+                zoom 0.5
             jump choose_screen_scene_3
 
         label hide_zekab:
@@ -115,14 +120,14 @@ label scene_3:
             zb "Хоба"
             hide zekab_idle
             show zekab_idle at bounce:
-                xalign 0.1
-                yalign 0.1
+                xalign 0.7
+                yalign 0.05
                 zoom 0.25
             $ zekab = 0
             jump choose_screen_scene_3
 
         label hide_zekac:
-            show zekac_idle at right
+            show zekac_idle at right, zekaczoom
             zc "Здарова"
             zc "Сразу скажу - мне на смену завтра поэтому я ненадолгооооОООо....."
             show zekac_idle at popierdolilo

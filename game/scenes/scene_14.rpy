@@ -4,9 +4,11 @@ label scene_14:
     show farquaad normal at right
     with dissolve
 
-    # play music "audio/final_fight.mp3" volume 0.2 loop
+    play music "audio/final_fight.mp3" volume 0.2 noloop
 
     s "Ты не выполнила свою часть сделки, а значит, я могу тусить с Викой сколько захочу!"
+
+    show farquaad normal at right, farquaadflip
 
     ik "Мне Вика тоже нравится, я тебе ее не отдам!"
 
@@ -80,6 +82,8 @@ label scene_14:
 
         s "Вика"
 
+        play music "audio/endmusic.wav" volume 1.0 noloop
+
         show vika normal at right, vikazoom
         with dissolve
 
@@ -97,8 +101,34 @@ label scene_14:
 
         v "Выплюнь Иру и будем тусеееть"
 
-        # Поздравления с ДР?
+        hide shrek mad
+        hide vika normal
+        with dissolve
+
+        show black
+        show end happy at truecenter
+        with dissolve
+        stop music fadeout 3.0
+        pause 3
+        hide end notsomebody
+        hide notsomebody
+        hide black
+
+        show shrek happy at flyingaround
+        show vika normal at flyingaround
+        show luda at flyingaround
+        show donkey normal at flyingaround, donkeyzoom
+        show leha_idle at flyingaround
+        show zekac_idle at flyingaround, popierdolilo
+        show zekab_idle at flyingaround
+        show farquaad normal at flyingaround
+        show mirror normal at flyingaround
 
         play music "audio/scene_14_believer.mp3" volume 0.5 loop
 
-        ""
+        menu the_end:
+            "Закончить игру?"
+            "Да":
+                return
+            "Нет":
+                jump the_end

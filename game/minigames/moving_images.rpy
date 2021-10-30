@@ -1,6 +1,6 @@
 transform move_slide:
-    linear 2.0 xalign 0.0 yalign 0.5
     linear 2.0 xalign 1.0 yalign 0.5
+    linear 2.0 xalign 0.0 yalign 0.5
     repeat
 
 init python:
@@ -21,7 +21,7 @@ screen game_rangedweapon():
         imagebutton:
             xalign 0.5
             yalign 0.5
-            auto "images/characters/Randoms/luda_%s.jpg"
+            auto "images/characters/Randoms/luda_%s.png"
             action Play("ch_one", "audio/roblox_oof.mp3") at moving_around, customzoom
 
 label winning:

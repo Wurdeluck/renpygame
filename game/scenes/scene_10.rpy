@@ -36,15 +36,15 @@ label scene_10:
         yalign 1.0
         zoom 1.8
 
-    show robinhood_idle at right, customzoom
+    show robinhood at right
     with dissolve
 
     rg_ "И МОИ ЛЮДИ!"
 
-    hide robinhood_idle
-    with dissolve
+    # with dissolve
+    # hide robinhood_idle
 
-    show luda_idle at right, ludazoom
+    show luda at right
     with dissolve
 
     rg "ЭТО МОЯ ДОРОГА, МАЛЬЦЫ!"
@@ -68,16 +68,20 @@ label scene_10:
 
     d "Братан без миниска все еще братан, а вот без души - продаван."
 
-    v "Не нервничай, справимся. Теперь бой равный."
+    v "Не нервничай, справимся. Теперь нас 2 на 2."
 
     lf "Ехеехех...  Ctrl + C, Ctrl + V + V + V + V + V + V"
-    hide luda_idle
-    # show luda_idle at ludazoom
+    hide luda
+    show luda at right
+    show expression "images/characters/Randoms/luda_idle.png" as luda2 at luda2zoom
+    show expression "images/characters/Randoms/luda_idle.png" as luda3 at luda3zoom
+    with dissolve
+    # show luda_idle onlayer "overlay"
 
     v "Ойёёёй... сказала бы я, если бы не выросла с двумя младшими сестрами."
 
     hide vika normal
-    show vika fight at center, vikafightzoom
+    show vika fight at vikafightzoom
     with dissolve
 
     v "А ну подходи по одной!"
@@ -87,13 +91,17 @@ label scene_10:
 
     hide vika normal
     hide donkey normal
+    hide robinhood
+    hide luda
+    hide luda2
+    hide luda3
     with dissolve
 
     call screen game_rangedweapon
 
     label after_fight:
 
-        show robinhood_idle at center, customzoom
+        show robinhood_idle at center
         with dissolve
 
         rg "Извините я больше не буду( Хотите подвезу до больнички? У вас тут парень страдает."

@@ -24,14 +24,17 @@ label scene_13:
         alpha 0.9
     show shrek normal at left, shrekzoom
     show leha_idle:
-        xalign 0.7
+        xalign 0.6
         yalign 0.8
+        zoom 0.5
     show zekab_idle:
         xalign 0.8
         yalign 0.8
+        zoom 0.5
     show zekac_idle:
-        xalign 0.9
+        xalign 1.0
         yalign 0.8
+        zoom 0.5
     with dissolve
 
     s "Мде, никого Ира отсюда не выгнала, все так же тусят как и раньше."

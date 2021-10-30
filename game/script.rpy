@@ -7,7 +7,7 @@ image background_scene_1:
     "images/backgrounds/bg swamp_scene_1_alter.jpg"
 
 image background_scene_3:
-    zoom 0.5
+    zoom 0.6
     "images/backgrounds/bg scene_3.jpg"
 
 image background_scene_4:
@@ -18,11 +18,25 @@ image background_scene_6:
     zoom 1.5
     "images/backgrounds/bg duloc_scene_6.jpg"
 
+image shrek_drag:
+    zoom 0.5
+    "characters/dragndrop/shrek.png"
+
 # Картинки
 
 image blackboard:
     zoom 1.3
     "images/stuff/plate.png"
+
+# Персонажи
+
+image robinhood:
+    zoom 1.5
+    "images/characters/Randoms/robinhood_idle_big.png"
+
+image luda:
+    zoom 0.7
+    "images/characters/Randoms/luda_idle.png"
 
 # Стиль с обводкой
 style default:
@@ -54,7 +68,7 @@ define zc = Character("Пиноккио", color ="#4a4118")
 
 define vk = Character("Дрэк (двоюродный брат Шрэка)", color="#074615")
 
-define ik = Character("Лорд Фаркуад", color ="#a21919")
+define ik = Character("Лорд Фаркуад", color ="#a21919", )
 
 define m = Character("Зеркало", color ="#371fa2")
 

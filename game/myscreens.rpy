@@ -11,7 +11,7 @@ screen croud():
         imagebutton:
             xanchor 0.5
             yanchor 0.5
-            xpos 0.7
+            xpos 0.8
             ypos 0.28
             focus_mask True
             auto "characters/Randoms/leha_%s.png"
@@ -22,8 +22,8 @@ screen croud():
         imagebutton:
             xanchor 0.5
             yanchor 0.5
-            xpos 0.8
-            ypos 0.38
+            xpos 0.9
+            ypos 0.5
             focus_mask True
             at zekabzoom
             auto "characters/Randoms/zekab_%s.png"
@@ -34,8 +34,8 @@ screen croud():
         imagebutton:
             xanchor 0.5
             yanchor 0.5
-            xpos 0.75
-            ypos 0.7
+            xpos 0.85
+            ypos 0.4
             focus_mask True
             auto "characters/Randoms/zekac_%s.png"
             hovered [Play("sound", "audio/zekac.mp3")]
@@ -90,28 +90,29 @@ init python:
 screen war_draft():
 
     imagebutton:
-        idle "images/characters/dragndrop/swamp.png"
+        idle im.FactorScale("images/characters/dragndrop/swamp.png", 0.2)
         action Null()
         hovered [Play("sound", "audio/swamp.mp3")]
         xpos 600 ypos 200
 
+
     imagebutton:
-        idle "characters/dragndrop/makarHouse.png"
+        idle im.FactorScale("characters/dragndrop/makarHouse.png", 1.0)
         action Null()
         hovered [Play("sound", "audio/makar_house.mp3")]
         xpos 900 ypos 300
 
     imagebutton:
-        idle "characters/dragndrop/fuckoff.png"
+        idle im.FactorScale("characters/dragndrop/fuckoff.jpg", 0.5)
         action Null()
         hovered [Play("sound", "audio/fuckoff.mp3")]
         xpos 1200 ypos 200
 
     imagebutton:
-        idle "characters/dragndrop/kras.png"
+        idle im.FactorScale("characters/dragndrop/kras.png", 1.0)
         action Null()
         hovered [Play("sound", "audio/kras.mp3")]
-        xpos 1500 ypos 300
+        xpos 1400 ypos 200
 
     # Группа drag гарантирует, что персонажей можно перетащить на места.
     draggroup:
@@ -119,7 +120,7 @@ screen war_draft():
         # Наши персонажи.
         drag:
             drag_name "Шрека"
-            child "characters/dragndrop/shrek.png"
+            child im.FactorScale("characters/dragndrop/shrek.png", 0.4)
             hovered [Play("sound", "audio/shrek.mp3")]
             droppable False
             dragged char_dragged
@@ -127,7 +128,7 @@ screen war_draft():
 
         drag:
             drag_name "тусу"
-            child "characters/dragndrop/party.png"
+            child im.FactorScale("characters/dragndrop/party.png", 0.5)
             hovered [Play("sound", "audio/party.mp3")]
             droppable False
             dragged char_dragged
@@ -135,7 +136,7 @@ screen war_draft():
 
         drag:
             drag_name "Вику"
-            child "characters/dragndrop/vika.png"
+            child im.FactorScale("characters/dragndrop/vika.png", 0.2)
             hovered [Play("sound", "audio/vikaname.mp3")]
             droppable False
             dragged char_dragged
@@ -144,21 +145,21 @@ screen war_draft():
         # Места, куда можно направить персонажей.
         drag:
             drag_name "на болото"
-            child "characters/dragndrop/swamp.png"
+            child im.FactorScale("characters/dragndrop/swamp.png", 0.3)
             draggable False
             xpos 600 ypos 200
         drag:
             drag_name "на хату Макара"
-            child "characters/dragndrop/makarHouse.png"
+            child im.FactorScale("characters/dragndrop/makarHouse.png", 1.0)
             draggable False
             xpos 900 ypos 300
         drag:
             drag_name "нахуй"
-            child "characters/dragndrop/fuckoff.png"
+            child im.FactorScale("characters/dragndrop/fuckoff.jpg", 0.5)
             draggable False
             xpos 1200 ypos 200
         drag:
             drag_name "в Красноярск"
-            child "characters/dragndrop/kras.png"
+            child im.FactorScale("characters/dragndrop/kras.png", 1.0)
             draggable False
-            xpos 1500 ypos 300
+            xpos 1400 ypos 200
