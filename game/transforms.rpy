@@ -31,6 +31,9 @@ transform zekabzoom:
 transform zekaczoom:
     zoom 0.5
 
+transform lehazoom:
+    zoom 1.8
+
 transform osevenzoom:
     zoom 0.7
 

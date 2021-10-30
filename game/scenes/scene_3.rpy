@@ -1,8 +1,9 @@
 label scene_3:
     scene background_scene_3
-    # show hookah:
-        # xalign 0.5
-        # yalign 0.5
+    show hookah:
+        xalign 0.65
+        yalign -0.1
+        zoom 0.8
     show shrek wait:
         xalign 0.4
         yalign 0.8
@@ -27,11 +28,6 @@ label scene_3:
 
     "Максим был недоволен, но решил, что он лично встретит каждого гостя,
     щелкнув на него мышкой."
-
-    # hide shrek
-    # show shrek wait:
-        # yalign 0.3
-        # xalign 0.4
 
 
     label choose_screen_scene_3:
@@ -88,11 +84,11 @@ label scene_3:
             return
 
         label hide_leha:
-            show leha_idle at right
+            show leha normal at right, lehazoom
             l "О здарова. Я тут наливочку принес, ты угощайся.
             Я еще калик думаю забить, люблю как следует подуть"
             $ leha = 0
-            hide leha_idle
+            hide leha normal
             show leha_idle:
                 xalign 0.25
                 yalign 0.0

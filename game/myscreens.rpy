@@ -11,8 +11,8 @@ screen croud():
         imagebutton:
             xanchor 0.5
             yanchor 0.5
-            xpos 0.8
-            ypos 0.28
+            xpos 0.835
+            ypos 0.2
             focus_mask True
             auto "characters/Randoms/leha_%s.png"
             hovered [Play("sound", "audio/leha.mp3")]
@@ -35,7 +35,7 @@ screen croud():
             xanchor 0.5
             yanchor 0.5
             xpos 0.85
-            ypos 0.4
+            ypos 0.5
             focus_mask True
             auto "characters/Randoms/zekac_%s.png"
             hovered [Play("sound", "audio/zekac.mp3")]
@@ -128,11 +128,11 @@ screen war_draft():
 
         drag:
             drag_name "тусу"
-            child im.FactorScale("characters/dragndrop/party.png", 0.5)
+            child im.FactorScale("characters/dragndrop/party.png", 0.2)
             hovered [Play("sound", "audio/party.mp3")]
             droppable False
             dragged char_dragged
-            xpos 1000 ypos 600
+            xpos 950 ypos 600
 
         drag:
             drag_name "Вику"

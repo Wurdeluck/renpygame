@@ -22,11 +22,11 @@ label scene_13:
     scene background_scene_1
     show black:
         alpha 0.9
-    show shrek normal at left, shrekzoom
-    show leha_idle:
+    show shrek sad at left, shrekzoom
+    show leha normal:
         xalign 0.6
         yalign 0.8
-        zoom 0.5
+        zoom 0.7
     show zekab_idle:
         xalign 0.8
         yalign 0.8
@@ -74,13 +74,21 @@ label scene_13:
     dz "Здарова Максим"
 
     s "Привет Димас. У меня проблема, я обидел девушку и не знаю что теперь делать."
+    stop music fadeout 3.0
 
     dz "Ох Максим. Беги к ней быстрее!"
+
+    hide shrek sad
+    show shrek angry:
+        xalign -0.5
+        yalign 1.0
+    with dissolve
 
     s "Спасибо Димас!"
 
     hide mirror dimas
     play sound "audio/skype_hangup.mp3"
+    play music "audio/brainstorm.mp3" volume 0.2 loop
 
     s "Но я не могу вызвать такси! Кто-нибудь может вызвать?"
 

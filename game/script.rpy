@@ -133,7 +133,7 @@ label start:
 
     call scene_10 from _call_scene_10
 
-    call scene_11 from _call_scene_11
+    # call scene_11 from _call_scene_11
 
     call scene_12 from _call_scene_12
 

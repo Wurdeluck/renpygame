@@ -19,9 +19,20 @@ label scene_4:
 
     ik "{b}Да ты видел в каком он состоянии вышел? Он в моих ботинках ушел!{/b}"
 
-    sk "Сейчас мы его приведем. Одна нога здесь другая там."
+    sk "Сейчас мы его приведем."
 
-    hide pryana normal with dissolve
+    ik "Одна нога здесь, другая там!"
+
+    hide pryana normal
+    show pryana noleg at right, shrekzoom
+
+    sk "Ладно."
+
+    hide pryana noleg
+    show leg:
+        xalign 0.6
+        yalign 0.43
+    with dissolve
 
     show mirror normal at right, mirrorzoom
     with dissolve

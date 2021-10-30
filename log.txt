@@ -1,32 +1,32 @@
-Sat Oct 30 17:34:21 2021
+Sat Oct 30 19:55:48 2021
 Windows-10-10.0.19041
 Ren'Py 7.4.9.2142
  
 
-Bootstrap to the start of init.init took 0.11s
+Bootstrap to the start of init.init took 0.09s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.03s
-Loading script took 0.35s
-Loading save slot metadata. took 0.02s
+Loading error handling took 0.05s
+Loading script took 0.47s
+Loading save slot metadata. took 0.13s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.08s
-Loading analysis data took 0.02s
+Running init code took 0.11s
+Loading analysis data took 0.03s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
-Dump and make backups. took 0.10s
+Dump and make backups. took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
-DPI scale factor: 1.500000
+DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.39s
+Creating interface object took 0.35s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
-Load screen analysis took 0.02s
+Load screen analysis took 0.03s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
 Prepare screens took 0.07s
@@ -37,394 +37,34 @@ Performance test:
 Interface start took 0.12s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 3840, 2160)
+primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Vendor: 'NVIDIA Corporation'
 Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 496.13'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2880, 1620) drawable=(2880, 1620)
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 38.10s
+Bootstrap to the start of init.init took 312.63s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.25s
+Loading script took 0.23s
 Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.04s
-Loading analysis data took 0.03s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
-Dump and make backups. took 0.08s
+Dump and make backups. took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.42s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 3840, 2160)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 496.13'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2880, 1620) drawable=(2880, 1620)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 445.40s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.24s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 3840, 2160)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 496.13'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2880, 1620) drawable=(2880, 1620)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 467.09s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.38s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 3840, 2160)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 496.13'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2880, 1620) drawable=(2880, 1620)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 544.27s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.37s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 3840, 2160)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 496.13'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2880, 1620) drawable=(2880, 1620)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 547.81s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-
-File "game/scenes/scene_14.rpy", line 85: expected end of line
-    play music "audio/endmusic.mp3" volume 0.2 nolppo
-                                               ^
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.46s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 3840, 2160)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 496.13'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2880, 1620) drawable=(2880, 1620)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 551.10s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.18s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-
-File "game/scenes/scene_14.rpy", line 85: expected end of line
-    play music "audio/endmusic.mp3" volume 0.2 nolpoop
-                                               ^
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.46s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 3840, 2160)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 496.13'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2880, 1620) drawable=(2880, 1620)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 554.40s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.21s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.07s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.39s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.04s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 3840, 2160)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 496.13'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2880, 1620) drawable=(2880, 1620)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 142, in script call
-    call scene_14 from _call_scene_14
-  File "game/scenes/scene_14.rpy", line 88, in script
-    with dissolve
-  File "renpy/ast.py", line 1443, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "renpy/exports.py", line 1682, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "renpy/display/core.py", line 2752, in do_with
-    clear=clear)
-  File "renpy/display/core.py", line 3315, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
-  File "renpy/display/core.py", line 4020, in interact_core
-    renpy.audio.audio.periodic()
-  File "renpy/audio/audio.py", line 1162, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "renpy/audio/audio.py", line 1140, in periodic_thread_main
-    periodic_pass()
-  File "renpy/audio/audio.py", line 1082, in periodic_pass
-    c.periodic()
-  File "renpy/audio/audio.py", line 518, in periodic
-    topf = load(filename)
-  File "renpy/audio/audio.py", line 69, in load
-    rv = renpy.loader.load(fn)
-  File "renpy/loader.py", line 798, in load
-    raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'audio/endmusic.mp3'.
-
-While running game code:
-  File "game/script.rpy", line 142, in script call
-    call scene_14 from _call_scene_14
-  File "game/scenes/scene_14.rpy", line 88, in script
-    with dissolve
-IOError: Couldn't find file 'audio/endmusic.mp3'.
-Resetting cache.
-Bootstrap to the start of init.init took 573.01s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.34s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 3840, 2160)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 496.13'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2880, 1620) drawable=(2880, 1620)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 603.64s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.21s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.500000
+DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
 Creating interface object took 0.36s
@@ -439,24 +79,203 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.07s
+Interface start took 0.05s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 3840, 2160)
+primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Vendor: 'NVIDIA Corporation'
 Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 496.13'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2880, 1620) drawable=(2880, 1620)
+Screen sizes: virtual=(1920, 1080) physical=(1738, 978) drawable=(1738, 978)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 729.08s
+Bootstrap to the start of init.init took 328.13s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.21s
+Loading script took 0.23s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.43s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1738, 977) drawable=(1738, 977)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 442.23s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1736, 976) drawable=(1736, 976)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 481.88s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 489.83s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.37s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 494.84s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
 Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
@@ -469,35 +288,125 @@ Dump and make backups. took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.04s
-DPI scale factor: 1.500000
+DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
+Creating interface object took 0.37s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
-Save screen analysis took 0.04s
+Save screen analysis took 0.03s
 Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
+Save pyanalysis. took 0.04s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.06s
+Interface start took 0.05s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 3840, 2160)
+primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Vendor: 'NVIDIA Corporation'
 Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 496.13'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2880, 1620) drawable=(2880, 1620)
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 783.79s
+Bootstrap to the start of init.init took 501.32s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.37s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 513.89s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.40s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 520.37s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
@@ -514,16 +423,286 @@ Dump and make backups. took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.04s
-DPI scale factor: 1.500000
+DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.39s
+Creating interface object took 0.38s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 543.41s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.21s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 548.39s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.34s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 616.81s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 644.43s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.23s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 658.40s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.37s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.04s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 673.90s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
-Save screen analysis took 0.04s
+Save screen analysis took 0.03s
 Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
@@ -532,17 +711,1468 @@ Performance test:
 Interface start took 0.06s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 3840, 2160)
+primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Vendor: 'NVIDIA Corporation'
 Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 496.13'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2880, 1620) drawable=(2880, 1620)
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 787.31s
+Bootstrap to the start of init.init took 690.89s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 706.38s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 120, in script call
+    call scene_3 from _call_scene_3
+  File "game/scenes/scene_3.rpy", line 91, in script
+    show leha normal at right, lehazoom
+  File "renpy/ast.py", line 1197, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1156, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "renpy/python.py", line 2276, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "renpy/python.py", line 2269, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/scenes/scene_3.rpy", line 91, in <module>
+    show leha normal at right, lehazoom
+NameError: name 'lehazoom' is not defined
+
+While running game code:
+  File "game/script.rpy", line 120, in script call
+    call scene_3 from _call_scene_3
+  File "game/scenes/scene_3.rpy", line 91, in script
+    show leha normal at right, lehazoom
+  File "game/scenes/scene_3.rpy", line 91, in <module>
+    show leha normal at right, lehazoom
+NameError: name 'lehazoom' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 720.33s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.37s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 743.37s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.38s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 826.94s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 847.00s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 880.55s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 893.03s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.37s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 900.98s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 908.91s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.34s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 915.36s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 927.79s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.38s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 934.26s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.34s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 946.73s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.37s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1102.98s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.39s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1123.47s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1132.94s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1143.94s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.38s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1172.99s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1229.06s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1335.25s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1349.23s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1355.72s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.37s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.04s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1365.20s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1373.22s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.34s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 126, in script call
+    call scene_6 from _call_scene_6
+  File "game/scenes/scene_6.rpy", line 44, in script
+    call screen war_draft
+  File "renpy/ast.py", line 2015, in execute
+    self.call("execute")
+  File "renpy/ast.py", line 2003, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "renpy/statements.py", line 278, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "renpy/exports.py", line 3134, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3315, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 4151, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "renpy/display/layout.py", line 1100, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1100, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/layout.py", line 1100, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/screen.py", line 727, in event
+    rv = self.child.event(ev, x, y, st)
+  File "renpy/display/layout.py", line 1100, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "renpy/display/behavior.py", line 979, in event
+    return handle_click(self.clicked)
+  File "renpy/display/behavior.py", line 914, in handle_click
+    rv = run(action)
+  File "renpy/display/behavior.py", line 329, in run
+    return action(*args, **kwargs)
+TypeError: 'Null' object is not callable
+
+While running game code:
+  File "game/script.rpy", line 126, in script call
+    call scene_6 from _call_scene_6
+  File "game/scenes/scene_6.rpy", line 44, in script
+    call screen war_draft
+  File "renpy/common/000statements.rpy", line 569, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+TypeError: 'Null' object is not callable
+Resetting cache.
+Bootstrap to the start of init.init took 1436.21s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 134, in script call
+    call scene_10 from _call_scene_10
+  File "game/scenes/scene_10.rpy", line 112, in script
+    s "АААааАААаАААаА больнааааа"
+  File "renpy/ast.py", line 721, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "renpy/exports.py", line 1417, in say
+    who(what, *args, **kwargs)
+  File "renpy/character.py", line 1235, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "renpy/character.py", line 887, in do_display
+    **display_args)
+  File "renpy/character.py", line 633, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3315, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 3834, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "renpy/display/core.py", line 2555, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 824, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 824, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/layout.py", line 824, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/transform.py", line 733, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/transform.py", line 733, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 187, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/image.py", line 501, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "renpy/display/image.py", line 307, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "renpy/display/im.py", line 607, in render
+    return cache.get(self, render=True)
+  File "renpy/display/im.py", line 271, in get
+    surf = image.load()
+  File "renpy/display/im.py", line 688, in load
+    raise e
+IOError: Couldn't find file 'images/characters/Shrek/shrek nominisk.png'.
+
+While loading <'Image' u'images/characters/Shrek/shrek nominisk.png'>:
+  File "game/script.rpy", line 134, in script call
+    call scene_10 from _call_scene_10
+  File "game/scenes/scene_10.rpy", line 112, in script
+    s "АААааАААаАААаА больнааааа"
+IOError: Couldn't find file 'images/characters/Shrek/shrek nominisk.png'.
+Resetting cache.
+Bootstrap to the start of init.init took 2324.91s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2447.33s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.39s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2502.89s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.40s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2550.06s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
@@ -559,16 +2189,955 @@ Dump and make backups. took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.04s
-DPI scale factor: 1.500000
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2559.56s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2576.63s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.38s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2586.20s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2624.42s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2632.44s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2679.63s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.54s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2710.17s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2716.71s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
 Creating interface object took 0.36s
 Cleaning stores took 0.00s
 Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2723.25s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.34s
+Cleaning stores took 0.00s
+Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
-Save screen analysis took 0.05s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2729.69s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.37s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2739.22s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.34s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2745.67s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.33s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.05s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2753.71s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.18s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.33s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2978.79s
+Early init took 0.00s
+Loader init took 0.02s
+Loading error handling took 0.02s
+Loading script took 0.25s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3000.40s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3013.86s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.34s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3122.83s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.34s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3129.34s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3244.23s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.37s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 140, in script call
+    call scene_13 from _call_scene_13
+  File "game/scenes/scene_13.rpy", line 93, in script
+    s "Но я не могу вызвать такси! Кто-нибудь может вызвать?"
+  File "renpy/ast.py", line 721, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "renpy/exports.py", line 1417, in say
+    who(what, *args, **kwargs)
+  File "renpy/character.py", line 1235, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "renpy/character.py", line 887, in do_display
+    **display_args)
+  File "renpy/character.py", line 633, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "renpy/display/core.py", line 3315, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "renpy/display/core.py", line 4020, in interact_core
+    renpy.audio.audio.periodic()
+  File "renpy/audio/audio.py", line 1162, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "renpy/audio/audio.py", line 1140, in periodic_thread_main
+    periodic_pass()
+  File "renpy/audio/audio.py", line 1082, in periodic_pass
+    c.periodic()
+  File "renpy/audio/audio.py", line 518, in periodic
+    topf = load(filename)
+  File "renpy/audio/audio.py", line 69, in load
+    rv = renpy.loader.load(fn)
+  File "renpy/loader.py", line 798, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'audio/brainstorm'.
+
+While running game code:
+  File "game/script.rpy", line 140, in script call
+    call scene_13 from _call_scene_13
+  File "game/scenes/scene_13.rpy", line 93, in script
+    s "Но я не могу вызвать такси! Кто-нибудь может вызвать?"
+IOError: Couldn't find file 'audio/brainstorm'.
+Resetting cache.
+Bootstrap to the start of init.init took 3262.78s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
 Prepare screens took 0.08s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
@@ -577,18 +3146,198 @@ Performance test:
 Interface start took 0.07s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 3840, 2160)
+primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Vendor: 'NVIDIA Corporation'
 Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
 Version: '4.6.0 NVIDIA 496.13'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2880, 1620) drawable=(2880, 1620)
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3307.00s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.34s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3421.91s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3467.55s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3517.73s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.19s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\repki\\AppData\\Roaming/RenPy/backups\\VikaDR':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'NVIDIA Corporation'
+Renderer: 'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: '4.6.0 NVIDIA 496.13'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1001) drawable=(1920, 1001)
 Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
 Init translation took 0.00s
-Build styles took 0.01s
+Build styles took 0.00s
 Load screen analysis took 0.02s
 Analyze screens took 0.00s
 Prepare screens took 0.00s

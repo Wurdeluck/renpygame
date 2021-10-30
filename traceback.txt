@@ -1,25 +1,31 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 142, in script call
-    call scene_14 from _call_scene_14
-  File "game/scenes/scene_14.rpy", line 88, in script
-    with dissolve
-IOError: Couldn't find file 'audio/endmusic.mp3'.
+  File "game/script.rpy", line 140, in script call
+    call scene_13 from _call_scene_13
+  File "game/scenes/scene_13.rpy", line 93, in script
+    s "Но я не могу вызвать такси! Кто-нибудь может вызвать?"
+IOError: Couldn't find file 'audio/brainstorm'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 142, in script call
-    call scene_14 from _call_scene_14
-  File "game/scenes/scene_14.rpy", line 88, in script
-    with dissolve
-  File "renpy/ast.py", line 1443, in execute
-    renpy.exports.with_statement(trans, paired)
-  File "renpy/exports.py", line 1682, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "renpy/display/core.py", line 2752, in do_with
-    clear=clear)
+  File "game/script.rpy", line 140, in script call
+    call scene_13 from _call_scene_13
+  File "game/scenes/scene_13.rpy", line 93, in script
+    s "Но я не могу вызвать такси! Кто-нибудь может вызвать?"
+  File "renpy/ast.py", line 721, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "renpy/exports.py", line 1417, in say
+    who(what, *args, **kwargs)
+  File "renpy/character.py", line 1235, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "renpy/character.py", line 887, in do_display
+    **display_args)
+  File "renpy/character.py", line 633, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "renpy/display/core.py", line 3315, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
   File "renpy/display/core.py", line 4020, in interact_core
@@ -36,9 +42,9 @@ Full traceback:
     rv = renpy.loader.load(fn)
   File "renpy/loader.py", line 798, in load
     raise IOError("Couldn't find file '%s'." % name)
-IOError: Couldn't find file 'audio/endmusic.mp3'.
+IOError: Couldn't find file 'audio/brainstorm'.
 
 Windows-10-10.0.19041
 Ren'Py 7.4.9.2142
 VikaDR 1.0
-Sat Oct 30 17:43:43 2021
+Sat Oct 30 20:50:04 2021
