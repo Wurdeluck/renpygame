@@ -61,6 +61,7 @@ label scene_10:
 
     rg "ЗА ТАКУЮ ДЕРЗОСТЬ Я ЗАБЕРАЮ ТВОЙ МИНИСК."
 
+    play sound "<from 0.5 to 2.7>audio/shrek_roar.mp3" volume 0.1
     s "AAAaaAAAaAAAAAAaaaaaa."
 
     hide shrek normal
@@ -104,11 +105,12 @@ label scene_10:
         show robinhood_idle at center
         with dissolve
 
-        rg "Извините я больше не буду( Хотите подвезу до больнички? У вас тут парень страдает."
+        rg_ "Извините я больше не буду( Хотите подвезу до больнички? У вас тут парень страдает."
 
         show shrek nominisk at right, shrekzoom
         with dissolve
 
+        play sound "<from 0.5 to 2.7>audio/shrek_roar.mp3" volume 0.1
         s "АААааАААаАААаА больнааааа"
 
         show vika normal at left, vikafightzoom
@@ -117,6 +119,8 @@ label scene_10:
         stop music fadeout 3.0
         stop sound fadeout 3.0
 
-        v "Да, подвезите нас пожалуйста."
+        v "Да, подвезите нас пожалуйста. Так уж и быть, поухаживаю за тобой."
+
+        s "{image=emoji}"
 
         return

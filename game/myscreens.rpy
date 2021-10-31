@@ -90,27 +90,31 @@ init python:
 screen war_draft():
 
     imagebutton:
-        idle im.FactorScale("images/characters/dragndrop/swamp.png", 0.2)
-        action Null()
+        idle im.FactorScale("images/characters/dragndrop/swamp.png", 0.3)
+        focus_mask True
+        action [Play("sound", "audio/swamp.mp3")]
         hovered [Play("sound", "audio/swamp.mp3")]
         xpos 600 ypos 200
 
 
     imagebutton:
         idle im.FactorScale("characters/dragndrop/makarHouse.png", 1.0)
-        action Null()
+        focus_mask True
+        action [Play("sound", "audio/makar_house.mp3")]
         hovered [Play("sound", "audio/makar_house.mp3")]
         xpos 900 ypos 300
 
     imagebutton:
         idle im.FactorScale("characters/dragndrop/fuckoff.jpg", 0.5)
-        action Null()
+        focus_mask True
+        action [Play("sound", "audio/fuckoff.mp3")]
         hovered [Play("sound", "audio/fuckoff.mp3")]
         xpos 1200 ypos 200
 
     imagebutton:
         idle im.FactorScale("characters/dragndrop/kras.png", 1.0)
-        action Null()
+        focus_mask True
+        action [Play("sound", "audio/kras.mp3")]
         hovered [Play("sound", "audio/kras.mp3")]
         xpos 1400 ypos 200
 

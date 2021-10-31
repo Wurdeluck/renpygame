@@ -18,15 +18,20 @@ image background_scene_6:
     zoom 1.5
     "images/backgrounds/bg duloc_scene_6.jpg"
 
-image shrek_drag:
-    zoom 0.5
-    "characters/dragndrop/shrek.png"
+image background_scene_12:
+    zoom 1.2
+    "images/backgrounds/bg makar_house_outside.jpg"
 
 # Картинки
 
 image blackboard:
     zoom 1.3
     "images/stuff/plate.png"
+
+image emoji:
+    zoom 0.15
+    "images/stuff/emoji.png"
+
 
 # Персонажи
 

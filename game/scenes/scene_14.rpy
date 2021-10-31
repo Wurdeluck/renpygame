@@ -120,9 +120,11 @@ label scene_14:
         show donkey normal at flyingaround, donkeyzoom
         show leha_idle at flyingaround
         show zekac_idle at flyingaround, popierdolilo
-        show zekab_idle at flyingaround
+        show zekab_idle at flyingaround, customzoom
         show farquaad normal at flyingaround
         show mirror normal at flyingaround
+        show pryana noleg at flyingaround
+        show kris fly at flyingaround
 
         play music "audio/scene_14_believer.mp3" volume 0.5 loop
 
