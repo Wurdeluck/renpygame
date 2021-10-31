@@ -77,7 +77,7 @@ label scene_6:
             show black
             show end fuckoff at truecenter
             with dissolve
-            play sound "<to 2.8>audio/whatchasay.mp3"
+            play sound "<to 2.8>audio/whatchasay.mp3"  volume 0.3
             pause 3
             hide end fuckoff
             hide black

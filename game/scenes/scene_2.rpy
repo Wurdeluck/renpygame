@@ -1,5 +1,5 @@
 label scene_2:
-    play sound "audio/doorbell.wav"
+    play sound "audio/doorbell.wav" volume 0.3
 
     scene bg swamp_scene_2 with dissolve
 
@@ -10,13 +10,11 @@ label scene_2:
 
     s "Кто это там? Я никого не жду, должно быть, это соседи сверху."
 
-    play audio "audio/doorbell.wav"
-
-    play audio [ "<silence .5>", "audio/doorbell.wav" ]
+    play sound "audio/doorbell.wav" volume 0.3
 
     s "Придется посмотреть кто же там пришел."
 
-    play sound "audio/dooropen.wav"
+    play sound "audio/dooropen.wav" volume 0.5
 
     show donkey normal at right, donkeyzoom
     with dissolve
@@ -89,7 +87,7 @@ label scene_2:
 
         s "Вот ты душнила..."
 
-        play audio "audio/doorbell.wav"
+        play audio "audio/doorbell.wav" volume 0.3
 
         d "О, а вот и ребятки"
 

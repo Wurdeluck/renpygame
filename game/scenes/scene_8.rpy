@@ -9,7 +9,7 @@ label scene_8:
 
     hide shrek normal
     show kris stay at topright, kriszoom
-    play music ["audio/HomieAuf.mp3", "audio/MarkAuf.mp3"] volume 0.4 loop
+    play music ["audio/HomieAuf.mp3", "audio/MarkAuf.mp3"] volume 0.2 loop
 
     kr "Привет, один тут отдыхаешь?"
 

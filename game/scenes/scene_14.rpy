@@ -39,7 +39,7 @@ label scene_14:
             play sound [ "<silence 0.5>", "audio/nom_minecraft.mp3" ]
             kr "Ам"
 
-            play sound "<from 4 to 9.5>audio/sad_allstar.mp3"
+            play sound "<from 4 to 9.5>audio/sad_allstar.mp3" volume 0.5
             hide shrek mad
             hide farquaad normal
             hide kris fly

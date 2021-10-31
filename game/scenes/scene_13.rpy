@@ -64,7 +64,7 @@ label scene_13:
     hide mirror normal
     show mirror empty at center, mirrorzoom
 
-    play sound "<to 3>audio/skypecall.mp3"
+    play sound "<to 3>audio/skypecall.mp3" volume 0.4
 
     pause 3
 
@@ -87,7 +87,7 @@ label scene_13:
     s "Спасибо Димас!"
 
     hide mirror dimas
-    play sound "audio/skype_hangup.mp3"
+    play sound "audio/skype_hangup.mp3" volume 0.4
     play music "audio/brainstorm.mp3" volume 0.2 loop
 
     s "Но я не могу вызвать такси! Кто-нибудь может вызвать?"

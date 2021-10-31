@@ -1,6 +1,6 @@
 label scene_5:
     scene bg svoya_igra
-    play music "audio/millioner.mp3"
+    play music "audio/millioner.mp3" volume 0.5
 
     $ ira = 1
     $ vika = 1
@@ -13,7 +13,7 @@ label scene_5:
         call screen choose_naumenko
 
         label hide_ira:
-            play sound "audio/wrong.mp3"
+            play sound "audio/wrong.mp3" volume 0.3
             $ ira = 0
             show farquaad bed at left, bedzoom
             show mirror disgust at right, mirrorzoom
@@ -27,7 +27,7 @@ label scene_5:
             jump choose_screen_scene_5
 
         label hide_sasha:
-            play sound "audio/wrong.mp3"
+            play sound "audio/wrong.mp3" volume 0.3
             $ sasha = 0
             show farquaad bed at left, bedzoom
             show mirror disgust at right, mirrorzoom
@@ -42,7 +42,7 @@ label scene_5:
 
         label hide_vika:
             $ vika = 0
-            play sound "audio/correct.mp3"
+            play sound "audio/correct.mp3" volume 0.3
             show farquaad bed at left, bedzoom
             show mirror normal at right, mirrorzoom
             with dissolve

@@ -24,7 +24,7 @@ label scene_4:
     ik "Одна нога здесь, другая там!"
 
     hide pryana normal
-    play sound "audio/bone_crack.mp3"
+    play sound "audio/bone_crack.mp3" volume 0.5
     show pryana noleg at right, shrekzoom
 
     sk "Ладно."
